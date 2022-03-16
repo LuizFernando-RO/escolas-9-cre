@@ -1,0 +1,106 @@
+EM;Rômulo Gallegos;Rua Itambaraca ( Santa Margarida ) s/nº;23060-070
+EM;Venezuela;Rua Amaral Costa 37 Centro;23050-260
+EM;Ubaldina Dias Jacaré;Rua São Domiciano, S/Nº Vila São João;23052-330
+EM;Alfredo Cesário Alvim;Rua Luiza de Marillac, 20;23017-530
+EM;João Proença;Rua Costa Nunes, S/Nº;23045-290
+EM;Rosaria Trotta;Pça. Rosária Trotta, S/Nº;23013-715
+EM;Professor Felipe Santiago;Rua Sargento Argolo Sacramento S/Nº;23042-520
+EM;Castro Alves;Praça Marcelino Gama, S/N;23017-195
+EM;Dom Meinrado;Rua Adelmar Tavares S/N;23052-280
+EM;Miguel de Larreinaga;Rua Seabra S/Nº;23045-795
+EM;Mafalda Teixeira de Alvarenga;Rua José Francisco de Sousa Porto S/Nº;23016-010
+EM;Rubens de Farias Neves;Rua Iara Beltrami S/Nº;23016-470
+EM;Almirante Saldanha da Gama;Avenida Cesário De Melo, 4180;23050-102
+EM;Presidente Arthur Bernardes;Rua Peropaba, 125;23045-570
+EM;Raymundo Corrêa;Estrada do Monteiro, 1346;23036-340
+EM;George Washington;Rua Alvorada, s/n;23055-200
+EM;Doutor Nelcy Noronha;Rua Coxila Rica S/Nº Lote 3;23047-080
+EM;Professor Gilberto Bento da Silva;Rua Francisco Mota 850;23013-630
+EM;Santa Isabel;Av. Cesário De Melo 5580 Benjamin Dumont;23059-001
+EM;Pugilista Virgulino Isaias de Oliveira;Rua Acreúna 66 Loteamento Joari;23045-200
+EM;São Camilo de Lelis;Avenida Aldo Botelho s/nº;23055-630
+EM;Professora Marita de Vasconcelos;Rua Xavier Marques s/nº;23052-080
+EM;Visconde do Rio Branco;Estrada da Posse 800;23093-122
+EM;Professor Floriano de Brito;Estrada Abílio Bastos S/Nº;23097-000
+EM;Casemiro de Abreu;Estrada do Mendanha 4.842 Mendanha;23095-841
+EM;Professor Manuel Said Ali;Estrada Guandu do Sape S/Nº;23090-032
+EM;Baltazar Lisboa;Avenida Marechal Dantas Barreto, 126 Centro;23090-300
+EM;Charles Peguy;Rua Aricuri, S/Nº;23087-142
+EM;Augusto Vasconcelos;Rua Dannízio Semeraro 199;23067-310
+EM;Tóquio;Rua Erasmo, 61;23095-682
+EM;Almirante Frontin;Rua Nova Aliança S/Nº;23087-340
+EM;Halfeld;Avenida André Vesálio S/Nº;23080-430
+EM;Jorge de Lima;Rua Oiticica, S/Nº Amazonas;23075-020
+EM;Amazonas;Estrada Rio São Paulo, 1802 Amazonas;23075-246
+EM;Luiz Edmundo;Rua Felix Bernardelli ( Vila Nova ) S/Nº Tingui;23078-030
+EM;Rainha Vitoria;Rua Benedito Lacerda S/Nº Vila Nova;23071-340
+EM;Fernando Costa;Rua José Albano, S/Nº;23073-720
+EM;Benjamin Franklin;Rua Argoim S/N Vila Nova;23070-580
+EM;Professora Jurema Peçanha Giraud;Rua Atacama S/Nº Tingui;23078-100
+EM;Von Martius;Rua Jape, 26 Aricuri;23082-170
+EM;Charles Dickens;Rua Primeira Cruz, S/Nº Centro;23085-170
+EM;Ministro Adaucto Lúcio Cardoso;Rua Dora Doralina S/Nº;23067-510
+EM;Embaixador Araújo Castro;Rua Rodolfo Garcia S/Nº Vila Nova;23070-430
+EM;Ministro Alcides Carneiro;Avenida Paulo Afonso S/Nº Medanha;23095-683
+EM;Dr. Jair Tavares de Oliveira;Rua Jape, 380;23082-170
+EM;Gastão Penalva;Rua Almerinda De Castro 191 V. Nova;23073-080
+EM;Alzira Araujo;Rua Ari Lobo ( Posse ) 430;23088-120
+EM;Constantino Magalhães;Rua do Paulistano, S/Nº Mendanha;23097-190
+EM;Comunidade Jardim Pedregoso;Rua Corumbaiba, (Jardim Pedregoso) S/Nº;23095-290
+EM;Cora Coralina;Rua Votorantim S/N kM 10 Mendanha;23095-710
+EEM;Maria Montessori;Rua Ivo do Prado, 361;23080-200
+EM;Professor Alfredo de Pires Flores;Rua Rodrigues de Abreu 10;23036-380
+EM;Professor Fábio César Pacífico;Rua do Pavão S/Nº;23097-640
+EM;Professora Sonia Maria Maltez Fernandez;Rua Consolação S/Nº;23040-005
+EM;Moacyr Scliar;Rua Murilo Alvarenga s/nº;23071-040
+EM;Professor Antônio Boaventura;Rua Nova Era 401;23070-300
+EM;Dulce Araújo "Tia Dulce";Rua Inglaterra 132 Carolina;23092-658
+EM;Medalhista Olímpica Mayra Aguiar da Silva;Rua Frei Timotheo S/N;23067-430
+CP;Clementina de Jesus;Av. Alhambra S/Nº;23045-800
+EM;Professor Gonçalves;Estrada do Cabuçu, 1,675;23017-250
+EM;Presidente Nereu Ramos;Estrada dos Caboclos, 343;23040-160
+CP;Lamartine Babo;Rua Campo Maior, S/Nº;23015-200
+CP;Francisco Cavalcante Pontes de Miranda;Estrada Moricaba S/Nº;23017-315
+CP;Anita Malfatti;Estrada Iaraqua s/nº Cachamorra;23047-160
+CP;Professor Darcy Ribeiro;Rua Conchas S/Nº;23073-330
+CP;Dr. Ernesto (Che) Guevara;Rua Timbaúba S/Nº;23087-290
+CP;Nelson Mandela;Praça Daniel Lames, S/Nº;23081-050
+CP;Armindo Marcílio Doutel de Andrade;Rua Flávio Fraga, S/Nº;23071-220
+CM;Cecília Meireles;Rua do Rádio, s/nº;23087-060
+CM;Sonho Feliz;Estrada Guandu do Senna 77.777;23097-220
+CM;Jardim Monte Santo;Rua Sananduva S/N.°;23016-310
+CM;Adélia Vieira;Rua Capelinha s/nº;23073-210
+CM;Mário Lombardi;Rua Epifânio da Silva 345;23066-540
+CM;Zélia Chauke Curi;Rua Juarez Antunes S/Nº Lot S Jeronimo;23016-512
+CM;Padre Valter da Costa Santos;Estrada Santa Maria s/nº;23071-160
+CM;Criando o Futuro;Avenida Cesário de Melo 6006;23059-001
+CM;Raul Cortez;Estrada Moricaba s/nº;23012-006
+CM;Emilio Ibrahim Lázaro Jubram Dib;Rua Beira Rio s/nº;23042-200
+CM;Elizabeth Tavares de Souza - Betinha;Rua Professor Carlos Boisson s/n°;23090-330
+EDI;Pintando o Sete;Rua Vinte e Três Conj.Campinho s/nº;23067-230
+EDI;Ludmila Máximo Moreira Cardoso;Rua Pedro Leão Veloso s/nº;23055-130
+EDI;Renan de Souza Leal;Rua Mário Arzua Barbosa s/nº;23067-520
+EDI;Cantora Cesária Évora;Rua Vinte e dois (esquina com a Murilo de Alvarenga) s/n;23071-040
+EDI;Urbano de Freitas;Rua Cardeal s/nº;23081-210
+EDI;Professora Marta Regina Perrota;Rua Cabo Fidelis S/Nº;23045-780
+EDI;Campo Grande;Rua Olinda Ellis, 99;23045-160
+EDI;Dom Bosco;Estrada Santa Maria 850;23071-160
+EDI;Isabel;Avenida Cesário De Melo 5580;23059-001
+EDI;Professor Marco Altino de Oliveira;Rua Cinquenta e Cinco s/nº (Antiga);23097-470
+EDI;Professor Nestor Manoel Pinto;Rua Silvio Leitão s/nº;23040-600
+EDI;Professora Sirléia Silva Reis;Rua João Gualberto Braga s/nº Bairro Silvestre;23092-520
+EDI;Professor João Fernandes Filho;Rua Primeira Cruz 42;23085-710
+EDI;Professora Eugênia de Almeida Azevedo;Rua Brasinha S/Nº;23075-533
+EDI;Joari;Rua Berizal S/Nº;23045-210
+EDI;Professor Almo Saturnino;Avenida Aldo Botelho S/Nº;23055-630
+EDI;Professora Enyr Portilho de Avellar;Rua Votorantin S/Nº;23095-710
+EDI;Professor André Luiz Gils;Estrada da Cambota 863;23045-190
+EDI;Professor Dersu Gabriel Bicego;Rua Dario de Paula Coelho S/n.º;23092-720
+EDI;Alberto Ferreira Pinto;Rua Sargento Argolo Sacramento s/n.º;23042-520
+EDI;Professora Teresinha de Jesus Siqueira Brown;Rua Jaguatirica 200;23093-145
+EDI;Alyrio Cavallieri;Rua José Janoni 33;23073-050
+EDI;Henrique Dias;Rua São Domiciano, S/Nº;23052-330
+EDI;Engenheira Elaine Monsores Pires;Rua Itaúnas 111;23068-155
+EDI;Eustorgio Wanderley;Rua Tronco do Ipê, S/Nº;23085-580
+EDI;Dalila Tavares;Rua Jornalista Sabino de Lemos s/nº;23082-080
+EM;Jesus Soares Pereira;Rua Consolação 138;23040-005
