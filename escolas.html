@@ -1,0 +1,2713 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_697175f5da2249069c561c20508fc37a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_697175f5da2249069c561c20508fc37a" ></div>
+        
+</body>
+<script>    
+    
+            var map_697175f5da2249069c561c20508fc37a = L.map(
+                "map_697175f5da2249069c561c20508fc37a",
+                {
+                    center: [-22.931764890730523, -43.553580856368654],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 14,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_75fa987044d345d1987b3eb78d417fd8 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var marker_865d9745ee634c76b290a1878e74ca40 = L.marker(
+                [-22.889030602068118, -43.60167842925194],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_4524ef98f53d4254a653e21514844ab4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_865d9745ee634c76b290a1878e74ca40.setIcon(icon_4524ef98f53d4254a653e21514844ab4);
+        
+    
+        var popup_afd8e66f8bf4419db435c536f19340c4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aeadb4064f9346269a71b8fc7dfaed1e = $(`<div id="html_aeadb4064f9346269a71b8fc7dfaed1e" style="width: 100.0%; height: 100.0%;">EM Rômulo Gallegos</div>`)[0];
+            popup_afd8e66f8bf4419db435c536f19340c4.setContent(html_aeadb4064f9346269a71b8fc7dfaed1e);
+        
+
+        marker_865d9745ee634c76b290a1878e74ca40.bindPopup(popup_afd8e66f8bf4419db435c536f19340c4)
+        ;
+
+        
+    
+    
+            var marker_acf2db3aae964b7e868b692f7c8c4dd7 = L.marker(
+                [-22.906205004566445, -43.56085102928288],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_1330db0ce0ef4be6a7cd410469b9e14e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_acf2db3aae964b7e868b692f7c8c4dd7.setIcon(icon_1330db0ce0ef4be6a7cd410469b9e14e);
+        
+    
+        var popup_cc22acee63c04c638e54da4b1a8f782b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0557d35dae3a4a8aa9bd5d1f99dcf1f7 = $(`<div id="html_0557d35dae3a4a8aa9bd5d1f99dcf1f7" style="width: 100.0%; height: 100.0%;">EM Venezuela</div>`)[0];
+            popup_cc22acee63c04c638e54da4b1a8f782b.setContent(html_0557d35dae3a4a8aa9bd5d1f99dcf1f7);
+        
+
+        marker_acf2db3aae964b7e868b692f7c8c4dd7.bindPopup(popup_cc22acee63c04c638e54da4b1a8f782b)
+        ;
+
+        
+    
+    
+            var marker_f386910061a64a7db6ba96354f1951bd = L.marker(
+                [-22.90527810443365, -43.54916952925876],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_b130bce7abc24030b0d1686ecc31dd9b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f386910061a64a7db6ba96354f1951bd.setIcon(icon_b130bce7abc24030b0d1686ecc31dd9b);
+        
+    
+        var popup_6a99989c7b7041b2acab50ad7713860d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b7b0ac53afc04519816e3a1c4b94b98d = $(`<div id="html_b7b0ac53afc04519816e3a1c4b94b98d" style="width: 100.0%; height: 100.0%;">EM Ubaldina Dias Jacaré</div>`)[0];
+            popup_6a99989c7b7041b2acab50ad7713860d.setContent(html_b7b0ac53afc04519816e3a1c4b94b98d);
+        
+
+        marker_f386910061a64a7db6ba96354f1951bd.bindPopup(popup_6a99989c7b7041b2acab50ad7713860d)
+        ;
+
+        
+    
+    
+            var marker_154a0f31a6cb4b6dbd00b25099df66cd = L.marker(
+                [-22.923121907007232, -43.51890862924837],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_75907c98cd87488ba3e170f3022fd8d2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_154a0f31a6cb4b6dbd00b25099df66cd.setIcon(icon_75907c98cd87488ba3e170f3022fd8d2);
+        
+    
+        var popup_8663e167cb0b45f3aea12a064efe7e32 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cb6671bf5ee147158c7e34fa86488b2d = $(`<div id="html_cb6671bf5ee147158c7e34fa86488b2d" style="width: 100.0%; height: 100.0%;">EM Alfredo Cesário Alvim</div>`)[0];
+            popup_8663e167cb0b45f3aea12a064efe7e32.setContent(html_cb6671bf5ee147158c7e34fa86488b2d);
+        
+
+        marker_154a0f31a6cb4b6dbd00b25099df66cd.bindPopup(popup_8663e167cb0b45f3aea12a064efe7e32)
+        ;
+
+        
+    
+    
+            var marker_2702b31b2d5a4a9783e74aabe58189a1 = L.marker(
+                [-22.917361106183538, -43.558588229257516],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_c0f771aef94b4ec8bbf76d60bd5a0f23 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2702b31b2d5a4a9783e74aabe58189a1.setIcon(icon_c0f771aef94b4ec8bbf76d60bd5a0f23);
+        
+    
+        var popup_2eb32d4dac704b75b00b7bca78dfe614 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_27f33d75ba274eec81b939c7934ec8b8 = $(`<div id="html_27f33d75ba274eec81b939c7934ec8b8" style="width: 100.0%; height: 100.0%;">EM João Proença</div>`)[0];
+            popup_2eb32d4dac704b75b00b7bca78dfe614.setContent(html_27f33d75ba274eec81b939c7934ec8b8);
+        
+
+        marker_2702b31b2d5a4a9783e74aabe58189a1.bindPopup(popup_2eb32d4dac704b75b00b7bca78dfe614)
+        ;
+
+        
+    
+    
+            var marker_4a415e403a0848dca6e069dc66452e8f = L.marker(
+                [-22.90148825389395, -43.549142479279276],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_79c28839aa5f4f8397ba01b3ebcf56b0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4a415e403a0848dca6e069dc66452e8f.setIcon(icon_79c28839aa5f4f8397ba01b3ebcf56b0);
+        
+    
+        var popup_518b3b9cae2847cd97f41ae7dcd30b61 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_10000889294841e0a7eaeabcbba9e74d = $(`<div id="html_10000889294841e0a7eaeabcbba9e74d" style="width: 100.0%; height: 100.0%;">EM Rosaria Trotta</div>`)[0];
+            popup_518b3b9cae2847cd97f41ae7dcd30b61.setContent(html_10000889294841e0a7eaeabcbba9e74d);
+        
+
+        marker_4a415e403a0848dca6e069dc66452e8f.bindPopup(popup_518b3b9cae2847cd97f41ae7dcd30b61)
+        ;
+
+        
+    
+    
+            var marker_6dc8a33b99cb43298f4fe6ad32817b54 = L.marker(
+                [-22.933184508476486, -43.56003512926113],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_4a59cb7bd7ef4a96a41ce255df842ad1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6dc8a33b99cb43298f4fe6ad32817b54.setIcon(icon_4a59cb7bd7ef4a96a41ce255df842ad1);
+        
+    
+        var popup_07ba32074f6445c396d6507439253d7a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c8781a6d23624533bd852300edfdb8bd = $(`<div id="html_c8781a6d23624533bd852300edfdb8bd" style="width: 100.0%; height: 100.0%;">EM Professor Felipe Santiago</div>`)[0];
+            popup_07ba32074f6445c396d6507439253d7a.setContent(html_c8781a6d23624533bd852300edfdb8bd);
+        
+
+        marker_6dc8a33b99cb43298f4fe6ad32817b54.bindPopup(popup_07ba32074f6445c396d6507439253d7a)
+        ;
+
+        
+    
+    
+            var marker_ef6c3c672269454b9b919081b4e29171 = L.marker(
+                [-22.917466906191272, -43.53840032925299],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_cfaf5c4603ff4a5a8790dc27df594d35 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ef6c3c672269454b9b919081b4e29171.setIcon(icon_cfaf5c4603ff4a5a8790dc27df594d35);
+        
+    
+        var popup_ea60728cf48341db8900674e4ac24cac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_437387e31a4541ec917ba38ec40cf589 = $(`<div id="html_437387e31a4541ec917ba38ec40cf589" style="width: 100.0%; height: 100.0%;">EM Castro Alves</div>`)[0];
+            popup_ea60728cf48341db8900674e4ac24cac.setContent(html_437387e31a4541ec917ba38ec40cf589);
+        
+
+        marker_ef6c3c672269454b9b919081b4e29171.bindPopup(popup_ea60728cf48341db8900674e4ac24cac)
+        ;
+
+        
+    
+    
+            var marker_c853d4b37a1e47508379f0ca29bb50be = L.marker(
+                [-22.91048080519063, -43.54957602926327],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_0c1cf3c239bb4205a25c88f396db66f6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c853d4b37a1e47508379f0ca29bb50be.setIcon(icon_0c1cf3c239bb4205a25c88f396db66f6);
+        
+    
+        var popup_305ae4dec57f42d89800ee261859ea70 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8b53063545374e3fa8521196d5929710 = $(`<div id="html_8b53063545374e3fa8521196d5929710" style="width: 100.0%; height: 100.0%;">EM Dom Meinrado</div>`)[0];
+            popup_305ae4dec57f42d89800ee261859ea70.setContent(html_8b53063545374e3fa8521196d5929710);
+        
+
+        marker_c853d4b37a1e47508379f0ca29bb50be.bindPopup(popup_305ae4dec57f42d89800ee261859ea70)
+        ;
+
+        
+    
+    
+            var marker_32c51cd66a8b40e49e7aded248dbf166 = L.marker(
+                [-22.92511530730222, -43.56631082927819],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_94665f79ead647e882844c29ba45dd3b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_32c51cd66a8b40e49e7aded248dbf166.setIcon(icon_94665f79ead647e882844c29ba45dd3b);
+        
+    
+        var popup_d7e2747dcbfa4e95a9e9412d741e62f1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7704cac062f941309768a86f64a5fdb4 = $(`<div id="html_7704cac062f941309768a86f64a5fdb4" style="width: 100.0%; height: 100.0%;">EM Miguel de Larreinaga</div>`)[0];
+            popup_d7e2747dcbfa4e95a9e9412d741e62f1.setContent(html_7704cac062f941309768a86f64a5fdb4);
+        
+
+        marker_32c51cd66a8b40e49e7aded248dbf166.bindPopup(popup_d7e2747dcbfa4e95a9e9412d741e62f1)
+        ;
+
+        
+    
+    
+            var marker_65a362633fa443c193a3a154b986da6f = L.marker(
+                [-22.909258905014433, -43.53558002926941],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_d55ec32cc42045ae9db03f1f7a8312e3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_65a362633fa443c193a3a154b986da6f.setIcon(icon_d55ec32cc42045ae9db03f1f7a8312e3);
+        
+    
+        var popup_4ef822b36c9248ada411793e01fdd094 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2a0b0918a4174bd9abbef9936f6ed2cb = $(`<div id="html_2a0b0918a4174bd9abbef9936f6ed2cb" style="width: 100.0%; height: 100.0%;">EM Mafalda Teixeira de Alvarenga</div>`)[0];
+            popup_4ef822b36c9248ada411793e01fdd094.setContent(html_2a0b0918a4174bd9abbef9936f6ed2cb);
+        
+
+        marker_65a362633fa443c193a3a154b986da6f.bindPopup(popup_4ef822b36c9248ada411793e01fdd094)
+        ;
+
+        
+    
+    
+            var marker_f340eb10be7e4d199b3af16dc9bf7772 = L.marker(
+                [-22.915065405848782, -43.53224512925584],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_b2d5d80f1d134ae08ccc8934f4670f77 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f340eb10be7e4d199b3af16dc9bf7772.setIcon(icon_b2d5d80f1d134ae08ccc8934f4670f77);
+        
+    
+        var popup_01f42a4058054583b68921fbf8b6b5b6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_205762977d2f4e3293b8d0af5115390b = $(`<div id="html_205762977d2f4e3293b8d0af5115390b" style="width: 100.0%; height: 100.0%;">EM Rubens de Farias Neves</div>`)[0];
+            popup_01f42a4058054583b68921fbf8b6b5b6.setContent(html_205762977d2f4e3293b8d0af5115390b);
+        
+
+        marker_f340eb10be7e4d199b3af16dc9bf7772.bindPopup(popup_01f42a4058054583b68921fbf8b6b5b6)
+        ;
+
+        
+    
+    
+            var marker_830556c76ac048739bbbaeded5838cfe = L.marker(
+                [-22.906381704595557, -43.57176682926572],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_bac0decb4ec44c4ba27e56e8513f547b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_830556c76ac048739bbbaeded5838cfe.setIcon(icon_bac0decb4ec44c4ba27e56e8513f547b);
+        
+    
+        var popup_2da9473faaf149c1ab80c58087dea1a0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9ebeb417c5ea47daabc2d85ae02640a8 = $(`<div id="html_9ebeb417c5ea47daabc2d85ae02640a8" style="width: 100.0%; height: 100.0%;">EM Almirante Saldanha da Gama</div>`)[0];
+            popup_2da9473faaf149c1ab80c58087dea1a0.setContent(html_9ebeb417c5ea47daabc2d85ae02640a8);
+        
+
+        marker_830556c76ac048739bbbaeded5838cfe.bindPopup(popup_2da9473faaf149c1ab80c58087dea1a0)
+        ;
+
+        
+    
+    
+            var marker_a3aa36d4ad6749dda8db215b48eb436b = L.marker(
+                [-22.92109210672559, -43.56455652926161],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_1a9396f85ad54d3ebe6eecc2e1efaa2b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a3aa36d4ad6749dda8db215b48eb436b.setIcon(icon_1a9396f85ad54d3ebe6eecc2e1efaa2b);
+        
+    
+        var popup_ba4b03f080fe4a928afbd052ba649022 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b1c0907c3fd4465199403d09304ca7fa = $(`<div id="html_b1c0907c3fd4465199403d09304ca7fa" style="width: 100.0%; height: 100.0%;">EM Presidente Arthur Bernardes</div>`)[0];
+            popup_ba4b03f080fe4a928afbd052ba649022.setContent(html_b1c0907c3fd4465199403d09304ca7fa);
+        
+
+        marker_a3aa36d4ad6749dda8db215b48eb436b.bindPopup(popup_ba4b03f080fe4a928afbd052ba649022)
+        ;
+
+        
+    
+    
+            var marker_4249d86bc68a46fcbb9916b23737ec0c = L.marker(
+                [-22.932094108315052, -43.57479432925331],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_678f407699d04a65990490703458a22c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4249d86bc68a46fcbb9916b23737ec0c.setIcon(icon_678f407699d04a65990490703458a22c);
+        
+    
+        var popup_400a83075af343aea8cedcf1bfd1858c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fd9f2b46d0174e4487e44d3a22dce905 = $(`<div id="html_fd9f2b46d0174e4487e44d3a22dce905" style="width: 100.0%; height: 100.0%;">EM Raymundo Corrêa</div>`)[0];
+            popup_400a83075af343aea8cedcf1bfd1858c.setContent(html_fd9f2b46d0174e4487e44d3a22dce905);
+        
+
+        marker_4249d86bc68a46fcbb9916b23737ec0c.bindPopup(popup_400a83075af343aea8cedcf1bfd1858c)
+        ;
+
+        
+    
+    
+            var marker_0bc367d1793b414d9b88b4fcbbd3f76f = L.marker(
+                [-22.910524555184058, -43.57572777927162],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_74324789941e4929b1cd8e992a40e28d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0bc367d1793b414d9b88b4fcbbd3f76f.setIcon(icon_74324789941e4929b1cd8e992a40e28d);
+        
+    
+        var popup_6ba3c85cf00a498a98bb74440a5899e7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f5d2b5da7e2f461287b3df1467b4e92f = $(`<div id="html_f5d2b5da7e2f461287b3df1467b4e92f" style="width: 100.0%; height: 100.0%;">EM George Washington</div>`)[0];
+            popup_6ba3c85cf00a498a98bb74440a5899e7.setContent(html_f5d2b5da7e2f461287b3df1467b4e92f);
+        
+
+        marker_0bc367d1793b414d9b88b4fcbbd3f76f.bindPopup(popup_6ba3c85cf00a498a98bb74440a5899e7)
+        ;
+
+        
+    
+    
+            var marker_37368f7d340642b79aa850c1a4fb17c7 = L.marker(
+                [-22.92276460696527, -43.56076902927861],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_b14a1d3854264030a00dd4064c1236bb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_37368f7d340642b79aa850c1a4fb17c7.setIcon(icon_b14a1d3854264030a00dd4064c1236bb);
+        
+    
+        var popup_7e17ccf57e0e43c0a730a61a406fe93e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_10f54b4325da4e67b07cf03d4d0f4f7d = $(`<div id="html_10f54b4325da4e67b07cf03d4d0f4f7d" style="width: 100.0%; height: 100.0%;">EM Doutor Nelcy Noronha</div>`)[0];
+            popup_7e17ccf57e0e43c0a730a61a406fe93e.setContent(html_10f54b4325da4e67b07cf03d4d0f4f7d);
+        
+
+        marker_37368f7d340642b79aa850c1a4fb17c7.bindPopup(popup_7e17ccf57e0e43c0a730a61a406fe93e)
+        ;
+
+        
+    
+    
+            var marker_4a294cbee0f941198c00c727a38df7d7 = L.marker(
+                [-22.90829710487693, -43.54371452926861],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_a3ce66d6294545998e300c075545104f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4a294cbee0f941198c00c727a38df7d7.setIcon(icon_a3ce66d6294545998e300c075545104f);
+        
+    
+        var popup_ae4613c6fd514faaac9ee77b71c75fd3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5dbb900785be431b885ab2072a3193d6 = $(`<div id="html_5dbb900785be431b885ab2072a3193d6" style="width: 100.0%; height: 100.0%;">EM Professor Gilberto Bento da Silva-23.06731440162946</div>`)[0];
+            popup_ae4613c6fd514faaac9ee77b71c75fd3.setContent(html_5dbb900785be431b885ab2072a3193d6);
+        
+
+        marker_4a294cbee0f941198c00c727a38df7d7.bindPopup(popup_ae4613c6fd514faaac9ee77b71c75fd3)
+        ;
+
+        
+    
+    
+            var marker_f51d4e099c2f4f69a028a21bd95c8f1f = L.marker(
+                [-22.910353505172914, -43.55173002926044],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_187bb24ad41c488faf84ee9985847db0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f51d4e099c2f4f69a028a21bd95c8f1f.setIcon(icon_187bb24ad41c488faf84ee9985847db0);
+        
+    
+        var popup_e4960917f77f44ff97bb2e008bf33172 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bb0748efcfd04892888078d1ff5def9c = $(`<div id="html_bb0748efcfd04892888078d1ff5def9c" style="width: 100.0%; height: 100.0%;">EM Pugilista Virgulino Isaias de Oliveira</div>`)[0];
+            popup_e4960917f77f44ff97bb2e008bf33172.setContent(html_bb0748efcfd04892888078d1ff5def9c);
+        
+
+        marker_f51d4e099c2f4f69a028a21bd95c8f1f.bindPopup(popup_e4960917f77f44ff97bb2e008bf33172)
+        ;
+
+        
+    
+    
+            var marker_26b3a699d0aa4b6b900aabb3a5e70f18 = L.marker(
+                [-22.917174906156497, -43.581008829267645],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_523b47300709400b883c76974df7365a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_26b3a699d0aa4b6b900aabb3a5e70f18.setIcon(icon_523b47300709400b883c76974df7365a);
+        
+    
+        var popup_bbff33e625fc49eb96bb5552e0b744b8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_09b04ba78a6f4293a06936a0f3ede4bf = $(`<div id="html_09b04ba78a6f4293a06936a0f3ede4bf" style="width: 100.0%; height: 100.0%;">EM São Camilo de Lelis</div>`)[0];
+            popup_bbff33e625fc49eb96bb5552e0b744b8.setContent(html_09b04ba78a6f4293a06936a0f3ede4bf);
+        
+
+        marker_26b3a699d0aa4b6b900aabb3a5e70f18.bindPopup(popup_bbff33e625fc49eb96bb5552e0b744b8)
+        ;
+
+        
+    
+    
+            var marker_fe198513c0904fcc880d51f1ce0d126d = L.marker(
+                [-22.900765803775364, -43.550511929266726],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_f99b623f2f184bf38209e121b6c1ffa8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_fe198513c0904fcc880d51f1ce0d126d.setIcon(icon_f99b623f2f184bf38209e121b6c1ffa8);
+        
+    
+        var popup_de42c63827c846429ab99db329924b75 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5c43786baa4a4b0db0a24761254db96b = $(`<div id="html_5c43786baa4a4b0db0a24761254db96b" style="width: 100.0%; height: 100.0%;">EM Professora Marita de Vasconcelos</div>`)[0];
+            popup_de42c63827c846429ab99db329924b75.setContent(html_5c43786baa4a4b0db0a24761254db96b);
+        
+
+        marker_fe198513c0904fcc880d51f1ce0d126d.bindPopup(popup_de42c63827c846429ab99db329924b75)
+        ;
+
+        
+    
+    
+            var marker_d087fc2eb704496495e36892fcc051ca = L.marker(
+                [-22.88451280142449, -43.551325929267335],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_0009ff60aed24bfa86eec8d63ea35933 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d087fc2eb704496495e36892fcc051ca.setIcon(icon_0009ff60aed24bfa86eec8d63ea35933);
+        
+    
+        var popup_9a8c7303c5e443e5bdf70dc4cc927213 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3dc6558055804e7ea3459c92ebaad1ce = $(`<div id="html_3dc6558055804e7ea3459c92ebaad1ce" style="width: 100.0%; height: 100.0%;">EM Visconde do Rio Branco</div>`)[0];
+            popup_9a8c7303c5e443e5bdf70dc4cc927213.setContent(html_3dc6558055804e7ea3459c92ebaad1ce);
+        
+
+        marker_d087fc2eb704496495e36892fcc051ca.bindPopup(popup_9a8c7303c5e443e5bdf70dc4cc927213)
+        ;
+
+        
+    
+    
+            var marker_a0fcb92a044e4a9e8378d3f3f353175e = L.marker(
+                [-22.83823229473918, -43.55502532927427],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_fa4be16050864079ad8fce492378659f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a0fcb92a044e4a9e8378d3f3f353175e.setIcon(icon_fa4be16050864079ad8fce492378659f);
+        
+    
+        var popup_95d3056c47c04433b2c10906d36dd209 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_08147893caa14a359c8e726a209be6fb = $(`<div id="html_08147893caa14a359c8e726a209be6fb" style="width: 100.0%; height: 100.0%;">EM Professor Floriano de Brito</div>`)[0];
+            popup_95d3056c47c04433b2c10906d36dd209.setContent(html_08147893caa14a359c8e726a209be6fb);
+        
+
+        marker_a0fcb92a044e4a9e8378d3f3f353175e.bindPopup(popup_95d3056c47c04433b2c10906d36dd209)
+        ;
+
+        
+    
+    
+            var marker_4d76a497096e49acb19eabf139830207 = L.marker(
+                [-22.857212697476427, -43.540976729271755],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_c448cb1f7440423d9f326c4b85238087 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4d76a497096e49acb19eabf139830207.setIcon(icon_c448cb1f7440423d9f326c4b85238087);
+        
+    
+        var popup_09c94b8f6faa42e3bd6963131e76779f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f4523427ff1348f8a7e600209a430fd1 = $(`<div id="html_f4523427ff1348f8a7e600209a430fd1" style="width: 100.0%; height: 100.0%;">EM Casemiro de Abreu</div>`)[0];
+            popup_09c94b8f6faa42e3bd6963131e76779f.setContent(html_f4523427ff1348f8a7e600209a430fd1);
+        
+
+        marker_4d76a497096e49acb19eabf139830207.bindPopup(popup_09c94b8f6faa42e3bd6963131e76779f)
+        ;
+
+        
+    
+    
+            var marker_3b52ca8013a7400e951a2a22de4dae2b = L.marker(
+                [-22.875753000160273, -43.56027922926934],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_1f9a39f063a140bbb4d7bb4e237f6245 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3b52ca8013a7400e951a2a22de4dae2b.setIcon(icon_1f9a39f063a140bbb4d7bb4e237f6245);
+        
+    
+        var popup_8318766af8644b469ca799a6c2ccf193 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_df1113dfa3b54b9f80fb7139724f86e0 = $(`<div id="html_df1113dfa3b54b9f80fb7139724f86e0" style="width: 100.0%; height: 100.0%;">EM Professor Manuel Said Ali</div>`)[0];
+            popup_8318766af8644b469ca799a6c2ccf193.setContent(html_df1113dfa3b54b9f80fb7139724f86e0);
+        
+
+        marker_3b52ca8013a7400e951a2a22de4dae2b.bindPopup(popup_8318766af8644b469ca799a6c2ccf193)
+        ;
+
+        
+    
+    
+            var marker_3441cc2ef8f543e48077a258784b87b2 = L.marker(
+                [-22.88451920142883, -43.56065292927825],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_6b99a82b729a40edb17331327aa8a621 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3441cc2ef8f543e48077a258784b87b2.setIcon(icon_6b99a82b729a40edb17331327aa8a621);
+        
+    
+        var popup_5a64b9038a8c4043af079394bea3396e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d10c7d95111845dfb57e01b5747071eb = $(`<div id="html_d10c7d95111845dfb57e01b5747071eb" style="width: 100.0%; height: 100.0%;">EM Baltazar Lisboa</div>`)[0];
+            popup_5a64b9038a8c4043af079394bea3396e.setContent(html_d10c7d95111845dfb57e01b5747071eb);
+        
+
+        marker_3441cc2ef8f543e48077a258784b87b2.bindPopup(popup_5a64b9038a8c4043af079394bea3396e)
+        ;
+
+        
+    
+    
+            var marker_3f5ac59852a14ed086cab8c2d8fa468e = L.marker(
+                [-22.89064750232545, -43.563446229273424],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_db80c3c8670c4e3fbb987e2605cd084c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3f5ac59852a14ed086cab8c2d8fa468e.setIcon(icon_db80c3c8670c4e3fbb987e2605cd084c);
+        
+    
+        var popup_40328002188640f5bc822d5c5065f270 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0eca6f4421274bbfb1c763bfeb7592ec = $(`<div id="html_0eca6f4421274bbfb1c763bfeb7592ec" style="width: 100.0%; height: 100.0%;">EM Charles Peguy</div>`)[0];
+            popup_40328002188640f5bc822d5c5065f270.setContent(html_0eca6f4421274bbfb1c763bfeb7592ec);
+        
+
+        marker_3f5ac59852a14ed086cab8c2d8fa468e.bindPopup(popup_40328002188640f5bc822d5c5065f270)
+        ;
+
+        
+    
+    
+            var marker_d64edf32ad6d45c6bb9e509188513ebc = L.marker(
+                [-22.883394101268937, -43.620536929258755],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_341d41b29985438ca5e5ad5562880425 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d64edf32ad6d45c6bb9e509188513ebc.setIcon(icon_341d41b29985438ca5e5ad5562880425);
+        
+    
+        var popup_e2c8f0381bd848c2833becb9fd49b55f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5affa1c0d75c40c38ffeb0f6243cd580 = $(`<div id="html_5affa1c0d75c40c38ffeb0f6243cd580" style="width: 100.0%; height: 100.0%;">EM Augusto Vasconcelos</div>`)[0];
+            popup_e2c8f0381bd848c2833becb9fd49b55f.setContent(html_5affa1c0d75c40c38ffeb0f6243cd580);
+        
+
+        marker_d64edf32ad6d45c6bb9e509188513ebc.bindPopup(popup_e2c8f0381bd848c2833becb9fd49b55f)
+        ;
+
+        
+    
+    
+            var marker_7df234c2c3504c959ef559c525dc8e2f = L.marker(
+                [-22.86894809917367, -43.55573142924834],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_72c9e3f7e6784e5791493a11afb70654 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7df234c2c3504c959ef559c525dc8e2f.setIcon(icon_72c9e3f7e6784e5791493a11afb70654);
+        
+    
+        var popup_1d6c3e6cbc494b2d98166a8ca56eb96f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_07cf52e48ea24d36a4bb1c573f4cd085 = $(`<div id="html_07cf52e48ea24d36a4bb1c573f4cd085" style="width: 100.0%; height: 100.0%;">EM Tóquio</div>`)[0];
+            popup_1d6c3e6cbc494b2d98166a8ca56eb96f.setContent(html_07cf52e48ea24d36a4bb1c573f4cd085);
+        
+
+        marker_7df234c2c3504c959ef559c525dc8e2f.bindPopup(popup_1d6c3e6cbc494b2d98166a8ca56eb96f)
+        ;
+
+        
+    
+    
+            var marker_ed52d12834c54715acd180d6514a654c = L.marker(
+                [-22.887417301852967, -43.55688472926653],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_5691746ae0614187b9f3141322c0df7e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ed52d12834c54715acd180d6514a654c.setIcon(icon_5691746ae0614187b9f3141322c0df7e);
+        
+    
+        var popup_1c4e3e7ce79c4f15a733cd3d05772d30 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_676d52a8c15c42659a511150d1ae2036 = $(`<div id="html_676d52a8c15c42659a511150d1ae2036" style="width: 100.0%; height: 100.0%;">EM Almirante Frontin</div>`)[0];
+            popup_1c4e3e7ce79c4f15a733cd3d05772d30.setContent(html_676d52a8c15c42659a511150d1ae2036);
+        
+
+        marker_ed52d12834c54715acd180d6514a654c.bindPopup(popup_1c4e3e7ce79c4f15a733cd3d05772d30)
+        ;
+
+        
+    
+    
+            var marker_f392f32a7fec47899dccb58ca6311c0a = L.marker(
+                [-22.89774390333301, -43.569028029269624],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_d849fdb648514ca3aa97d50ef8303cc6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f392f32a7fec47899dccb58ca6311c0a.setIcon(icon_d849fdb648514ca3aa97d50ef8303cc6);
+        
+    
+        var popup_47878c19f978498291b54bdb801a16a5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bc05eea3b60c41e8a2c1caf8c8fb0c04 = $(`<div id="html_bc05eea3b60c41e8a2c1caf8c8fb0c04" style="width: 100.0%; height: 100.0%;">EM Halfeld</div>`)[0];
+            popup_47878c19f978498291b54bdb801a16a5.setContent(html_bc05eea3b60c41e8a2c1caf8c8fb0c04);
+        
+
+        marker_f392f32a7fec47899dccb58ca6311c0a.bindPopup(popup_47878c19f978498291b54bdb801a16a5)
+        ;
+
+        
+    
+    
+            var marker_b4b9ad6511b24a2c8255eacc9c72a630 = L.marker(
+                [-22.881328700968908, -43.56591672927083],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_5a2e1eb11e11468482edd4d0adf2594a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b4b9ad6511b24a2c8255eacc9c72a630.setIcon(icon_5a2e1eb11e11468482edd4d0adf2594a);
+        
+    
+        var popup_d2c0121658414a068ab0e6b1d11e531c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5b817a271add46ef8626d02f4ff1dc22 = $(`<div id="html_5b817a271add46ef8626d02f4ff1dc22" style="width: 100.0%; height: 100.0%;">EM Jorge de Lima</div>`)[0];
+            popup_d2c0121658414a068ab0e6b1d11e531c.setContent(html_5b817a271add46ef8626d02f4ff1dc22);
+        
+
+        marker_b4b9ad6511b24a2c8255eacc9c72a630.bindPopup(popup_d2c0121658414a068ab0e6b1d11e531c)
+        ;
+
+        
+    
+    
+            var marker_2ac16ec9e38a4ab3a8acd50903cc8ceb = L.marker(
+                [-22.884387501402855, -43.56973717925637],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_97e6066d1e1a442cb3d833bceb9d9d0b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2ac16ec9e38a4ab3a8acd50903cc8ceb.setIcon(icon_97e6066d1e1a442cb3d833bceb9d9d0b);
+        
+    
+        var popup_c84c2a8e9b2147d8922aca8020924ae3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2b12fa4239f641c3bbe46ba3e16cfbd2 = $(`<div id="html_2b12fa4239f641c3bbe46ba3e16cfbd2" style="width: 100.0%; height: 100.0%;">EM Amazonas</div>`)[0];
+            popup_c84c2a8e9b2147d8922aca8020924ae3.setContent(html_2b12fa4239f641c3bbe46ba3e16cfbd2);
+        
+
+        marker_2ac16ec9e38a4ab3a8acd50903cc8ceb.bindPopup(popup_c84c2a8e9b2147d8922aca8020924ae3)
+        ;
+
+        
+    
+    
+            var marker_d1ca90ac87c34dd187e6ae5360112bcc = L.marker(
+                [-22.87778400045693, -43.58361622924353],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_2f6be41463b94e778fc5516878691fd7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d1ca90ac87c34dd187e6ae5360112bcc.setIcon(icon_2f6be41463b94e778fc5516878691fd7);
+        
+    
+        var popup_f43eb525e9e34a948d36eb5e53c87aad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_94863746f1a3412aa4e2246e97eccc16 = $(`<div id="html_94863746f1a3412aa4e2246e97eccc16" style="width: 100.0%; height: 100.0%;">EM Luiz Edmundo</div>`)[0];
+            popup_f43eb525e9e34a948d36eb5e53c87aad.setContent(html_94863746f1a3412aa4e2246e97eccc16);
+        
+
+        marker_d1ca90ac87c34dd187e6ae5360112bcc.bindPopup(popup_f43eb525e9e34a948d36eb5e53c87aad)
+        ;
+
+        
+    
+    
+            var marker_c98f10c8ae8b466692a9d62fc5cd40d4 = L.marker(
+                [-22.889873202205656, -43.58110012927547],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_23453f645624412e977c3e5ea7f273a8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c98f10c8ae8b466692a9d62fc5cd40d4.setIcon(icon_23453f645624412e977c3e5ea7f273a8);
+        
+    
+        var popup_261fedfe73334a449f8d75951a58ee32 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_90c5511c0ce74033a12c60fdb8630a12 = $(`<div id="html_90c5511c0ce74033a12c60fdb8630a12" style="width: 100.0%; height: 100.0%;">EM Rainha Vitoria</div>`)[0];
+            popup_261fedfe73334a449f8d75951a58ee32.setContent(html_90c5511c0ce74033a12c60fdb8630a12);
+        
+
+        marker_c98f10c8ae8b466692a9d62fc5cd40d4.bindPopup(popup_261fedfe73334a449f8d75951a58ee32)
+        ;
+
+        
+    
+    
+            var marker_98a4032093be448b84da731b6bde4333 = L.marker(
+                [-22.890335102259225, -43.59404042925439],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_9749f986100f443998ec89af2792cdca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_98a4032093be448b84da731b6bde4333.setIcon(icon_9749f986100f443998ec89af2792cdca);
+        
+    
+        var popup_45f9909da1f14ed08d672eb0a373df3c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2d5fd8dfa32c44a8bbcfa0c0c1e490bf = $(`<div id="html_2d5fd8dfa32c44a8bbcfa0c0c1e490bf" style="width: 100.0%; height: 100.0%;">EM Fernando Costa</div>`)[0];
+            popup_45f9909da1f14ed08d672eb0a373df3c.setContent(html_2d5fd8dfa32c44a8bbcfa0c0c1e490bf);
+        
+
+        marker_98a4032093be448b84da731b6bde4333.bindPopup(popup_45f9909da1f14ed08d672eb0a373df3c)
+        ;
+
+        
+    
+    
+            var marker_1d7be6e18b5f47d6b07ef41daaad105b = L.marker(
+                [-22.885112901519808, -43.576416729249424],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_76d79f0fdff84ac9be4aa31881de403b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1d7be6e18b5f47d6b07ef41daaad105b.setIcon(icon_76d79f0fdff84ac9be4aa31881de403b);
+        
+    
+        var popup_6fecc699d6b04b1f823ab7a48c3b1eb1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d67dfe8c144044e283cedce8fd6a4cd3 = $(`<div id="html_d67dfe8c144044e283cedce8fd6a4cd3" style="width: 100.0%; height: 100.0%;">EM Benjamin Franklin</div>`)[0];
+            popup_6fecc699d6b04b1f823ab7a48c3b1eb1.setContent(html_d67dfe8c144044e283cedce8fd6a4cd3);
+        
+
+        marker_1d7be6e18b5f47d6b07ef41daaad105b.bindPopup(popup_6fecc699d6b04b1f823ab7a48c3b1eb1)
+        ;
+
+        
+    
+    
+            var marker_89496351afb540f2b5f70d69679b0927 = L.marker(
+                [-22.88003690078476, -43.582222829259955],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_fe7800678947442da8c28dcd35b76b14 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_89496351afb540f2b5f70d69679b0927.setIcon(icon_fe7800678947442da8c28dcd35b76b14);
+        
+    
+        var popup_888c77b4b2e442109d08b506b77b3479 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a4042dadeea848fe9559d0aefda21d97 = $(`<div id="html_a4042dadeea848fe9559d0aefda21d97" style="width: 100.0%; height: 100.0%;">EM Professora Jurema Peçanha Giraud</div>`)[0];
+            popup_888c77b4b2e442109d08b506b77b3479.setContent(html_a4042dadeea848fe9559d0aefda21d97);
+        
+
+        marker_89496351afb540f2b5f70d69679b0927.bindPopup(popup_888c77b4b2e442109d08b506b77b3479)
+        ;
+
+        
+    
+    
+            var marker_69f4c775c2cc4d4f8a1970a5b1817cda = L.marker(
+                [-22.890720702330096, -43.571553729248784],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_b9e8e961b2c84c079e42b878c6f00ebd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_69f4c775c2cc4d4f8a1970a5b1817cda.setIcon(icon_b9e8e961b2c84c079e42b878c6f00ebd);
+        
+    
+        var popup_7b115901785546ca8fb343658c30a950 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4ec642a7827d4b409f60cc2c0d49dbfb = $(`<div id="html_4ec642a7827d4b409f60cc2c0d49dbfb" style="width: 100.0%; height: 100.0%;">EM Von Martius</div>`)[0];
+            popup_7b115901785546ca8fb343658c30a950.setContent(html_4ec642a7827d4b409f60cc2c0d49dbfb);
+        
+
+        marker_69f4c775c2cc4d4f8a1970a5b1817cda.bindPopup(popup_7b115901785546ca8fb343658c30a950)
+        ;
+
+        
+    
+    
+            var marker_98ab2101854a46558d8f14938e0329cb = L.marker(
+                [-22.89428890283931, -43.557920929253136],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_2769a86baf6c451cbae35c3f4bd724ad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_98ab2101854a46558d8f14938e0329cb.setIcon(icon_2769a86baf6c451cbae35c3f4bd724ad);
+        
+    
+        var popup_acc3916219db4361b471625bbc1a7fa0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_714c1a21f6134151aa19402cb4274ab7 = $(`<div id="html_714c1a21f6134151aa19402cb4274ab7" style="width: 100.0%; height: 100.0%;">EM Charles Dickens</div>`)[0];
+            popup_acc3916219db4361b471625bbc1a7fa0.setContent(html_714c1a21f6134151aa19402cb4274ab7);
+        
+
+        marker_98ab2101854a46558d8f14938e0329cb.bindPopup(popup_acc3916219db4361b471625bbc1a7fa0)
+        ;
+
+        
+    
+    
+            var marker_515db0ccd64547bd81fbd3ad838edf15 = L.marker(
+                [-22.87944290069061, -43.61427182925172],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_24773e58b8d74acb822fd7ecdf63b4e8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_515db0ccd64547bd81fbd3ad838edf15.setIcon(icon_24773e58b8d74acb822fd7ecdf63b4e8);
+        
+    
+        var popup_8477325e40144477a821978c62057e61 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_192ebc10a6f94a6d9d7cf778d3d335ed = $(`<div id="html_192ebc10a6f94a6d9d7cf778d3d335ed" style="width: 100.0%; height: 100.0%;">EM Ministro Adaucto Lúcio Cardoso</div>`)[0];
+            popup_8477325e40144477a821978c62057e61.setContent(html_192ebc10a6f94a6d9d7cf778d3d335ed);
+        
+
+        marker_515db0ccd64547bd81fbd3ad838edf15.bindPopup(popup_8477325e40144477a821978c62057e61)
+        ;
+
+        
+    
+    
+            var marker_92018662a98e40ed9aa484acf9ea3fb4 = L.marker(
+                [-22.889053602073627, -43.57867142925258],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_241e6194612c43e9be8df0b49a17f82a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_92018662a98e40ed9aa484acf9ea3fb4.setIcon(icon_241e6194612c43e9be8df0b49a17f82a);
+        
+    
+        var popup_a89b9186d9604e8b90ed1e8708ec8498 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_86f3a79a92224e8f96cca18201ebac47 = $(`<div id="html_86f3a79a92224e8f96cca18201ebac47" style="width: 100.0%; height: 100.0%;">EM Embaixador Araújo Castro</div>`)[0];
+            popup_a89b9186d9604e8b90ed1e8708ec8498.setContent(html_86f3a79a92224e8f96cca18201ebac47);
+        
+
+        marker_92018662a98e40ed9aa484acf9ea3fb4.bindPopup(popup_a89b9186d9604e8b90ed1e8708ec8498)
+        ;
+
+        
+    
+    
+            var marker_bef550cf34394d4fb6cf367594ab1f81 = L.marker(
+                [-22.86836169909366, -43.556745829278825],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_d2b7b0727370459fa5141df7990cc357 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bef550cf34394d4fb6cf367594ab1f81.setIcon(icon_d2b7b0727370459fa5141df7990cc357);
+        
+    
+        var popup_6b41d096de2245439efb1f03ebd606f3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2380682e7bc34c659cf87ef63f271668 = $(`<div id="html_2380682e7bc34c659cf87ef63f271668" style="width: 100.0%; height: 100.0%;">EM Ministro Alcides Carneiro</div>`)[0];
+            popup_6b41d096de2245439efb1f03ebd606f3.setContent(html_2380682e7bc34c659cf87ef63f271668);
+        
+
+        marker_bef550cf34394d4fb6cf367594ab1f81.bindPopup(popup_6b41d096de2245439efb1f03ebd606f3)
+        ;
+
+        
+    
+    
+            var marker_3ad78388c3f04f2da02224b08092b297 = L.marker(
+                [-22.889402802129656, -43.56811002927277],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_ab9c1b62c77346769368e7a5886f8dc3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3ad78388c3f04f2da02224b08092b297.setIcon(icon_ab9c1b62c77346769368e7a5886f8dc3);
+        
+    
+        var popup_fd662dd8739341bcb57e5c2928a49dd3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b5e08afcfddb4bd8a8b95fb1cc600618 = $(`<div id="html_b5e08afcfddb4bd8a8b95fb1cc600618" style="width: 100.0%; height: 100.0%;">EM Dr. Jair Tavares de Oliveira</div>`)[0];
+            popup_fd662dd8739341bcb57e5c2928a49dd3.setContent(html_b5e08afcfddb4bd8a8b95fb1cc600618);
+        
+
+        marker_3ad78388c3f04f2da02224b08092b297.bindPopup(popup_fd662dd8739341bcb57e5c2928a49dd3)
+        ;
+
+        
+    
+    
+            var marker_0f94c4ef01a44f74be0106bd9d379689 = L.marker(
+                [-22.895010802939556, -43.587261129256966],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_82c695914821452691412fcc340e3058 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0f94c4ef01a44f74be0106bd9d379689.setIcon(icon_82c695914821452691412fcc340e3058);
+        
+    
+        var popup_e3819ce040944190b88395688f236566 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_22b10818e3bf4de9b8db668439cd1f61 = $(`<div id="html_22b10818e3bf4de9b8db668439cd1f61" style="width: 100.0%; height: 100.0%;">EM Gastão Penalva</div>`)[0];
+            popup_e3819ce040944190b88395688f236566.setContent(html_22b10818e3bf4de9b8db668439cd1f61);
+        
+
+        marker_0f94c4ef01a44f74be0106bd9d379689.bindPopup(popup_e3819ce040944190b88395688f236566)
+        ;
+
+        
+    
+    
+            var marker_0bf84f51355547ef9e2662968f7b7e09 = L.marker(
+                [-22.88664200172814, -43.54866202926874],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_ed6b89f6061f43a9ad839eced71760d4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0bf84f51355547ef9e2662968f7b7e09.setIcon(icon_ed6b89f6061f43a9ad839eced71760d4);
+        
+    
+        var popup_1656ea9bec0345408d4d73e812f8abef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_966350f81deb407c9cca2ce0f4460175 = $(`<div id="html_966350f81deb407c9cca2ce0f4460175" style="width: 100.0%; height: 100.0%;">EM Alzira Araujo</div>`)[0];
+            popup_1656ea9bec0345408d4d73e812f8abef.setContent(html_966350f81deb407c9cca2ce0f4460175);
+        
+
+        marker_0bf84f51355547ef9e2662968f7b7e09.bindPopup(popup_1656ea9bec0345408d4d73e812f8abef)
+        ;
+
+        
+    
+    
+            var marker_226cc0fe17104ebe9a12ec2f5e35f92e = L.marker(
+                [-22.85167559668284, -43.542540229266265],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_cb411a818287406b884a1739b9e147d4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_226cc0fe17104ebe9a12ec2f5e35f92e.setIcon(icon_cb411a818287406b884a1739b9e147d4);
+        
+    
+        var popup_a93a40c71bd9471fbc27a75b3f49ba92 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5a836938278f49eeabe6cd9061318b10 = $(`<div id="html_5a836938278f49eeabe6cd9061318b10" style="width: 100.0%; height: 100.0%;">EM Constantino Magalhães</div>`)[0];
+            popup_a93a40c71bd9471fbc27a75b3f49ba92.setContent(html_5a836938278f49eeabe6cd9061318b10);
+        
+
+        marker_226cc0fe17104ebe9a12ec2f5e35f92e.bindPopup(popup_a93a40c71bd9471fbc27a75b3f49ba92)
+        ;
+
+        
+    
+    
+            var marker_6e1d5ca21ced49ffb7b903460768ad9e = L.marker(
+                [-22.870596099411895, -43.561401329272705],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_e39b405b732f4477ac669c42249e128a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6e1d5ca21ced49ffb7b903460768ad9e.setIcon(icon_e39b405b732f4477ac669c42249e128a);
+        
+    
+        var popup_4c8cab9cacd748a8b18b883d79bf8189 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6afbb90d404f4b2ab1ef919c51c88249 = $(`<div id="html_6afbb90d404f4b2ab1ef919c51c88249" style="width: 100.0%; height: 100.0%;">EM Comunidade Jardim Pedregoso</div>`)[0];
+            popup_4c8cab9cacd748a8b18b883d79bf8189.setContent(html_6afbb90d404f4b2ab1ef919c51c88249);
+        
+
+        marker_6e1d5ca21ced49ffb7b903460768ad9e.bindPopup(popup_4c8cab9cacd748a8b18b883d79bf8189)
+        ;
+
+        
+    
+    
+            var marker_a93b7d9db1ef4697b045748a92262dde = L.marker(
+                [-22.858830597716725, -43.53703272925405],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_dece73aafce84df88f2e229c1035070a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a93b7d9db1ef4697b045748a92262dde.setIcon(icon_dece73aafce84df88f2e229c1035070a);
+        
+    
+        var popup_d1437c7bb21048c08d0df70caa6c71de = L.popup({"maxWidth": "100%"});
+
+        
+            var html_27f83d0c5e5443f3abf86c6023567cb8 = $(`<div id="html_27f83d0c5e5443f3abf86c6023567cb8" style="width: 100.0%; height: 100.0%;">EM Cora Coralina</div>`)[0];
+            popup_d1437c7bb21048c08d0df70caa6c71de.setContent(html_27f83d0c5e5443f3abf86c6023567cb8);
+        
+
+        marker_a93b7d9db1ef4697b045748a92262dde.bindPopup(popup_d1437c7bb21048c08d0df70caa6c71de)
+        ;
+
+        
+    
+    
+            var marker_ad248ccaf5bf42f58c7bd20641bc947b = L.marker(
+                [-22.89975600363625, -43.565526829274916],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_a41844ed4106449eae456baaa9f90539 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ad248ccaf5bf42f58c7bd20641bc947b.setIcon(icon_a41844ed4106449eae456baaa9f90539);
+        
+    
+        var popup_eb6eb82f3db04959b2407a2f00e637e6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4e574b84bf8941d68bf28189f10da308 = $(`<div id="html_4e574b84bf8941d68bf28189f10da308" style="width: 100.0%; height: 100.0%;">EEM Maria Montessori</div>`)[0];
+            popup_eb6eb82f3db04959b2407a2f00e637e6.setContent(html_4e574b84bf8941d68bf28189f10da308);
+        
+
+        marker_ad248ccaf5bf42f58c7bd20641bc947b.bindPopup(popup_eb6eb82f3db04959b2407a2f00e637e6)
+        ;
+
+        
+    
+    
+            var marker_6c83d3d1e357498bbba59b89ccd1d22c = L.marker(
+                [-22.930561708106673, -43.57640112926924],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_ca15aaba24184b9e9ca51d022044c712 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6c83d3d1e357498bbba59b89ccd1d22c.setIcon(icon_ca15aaba24184b9e9ca51d022044c712);
+        
+    
+        var popup_9792882fdc634fcb8792ee378d9d9793 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2e29397277094f81b5f1de5b8c8cf8ca = $(`<div id="html_2e29397277094f81b5f1de5b8c8cf8ca" style="width: 100.0%; height: 100.0%;">EM Professor Alfredo de Pires Flores</div>`)[0];
+            popup_9792882fdc634fcb8792ee378d9d9793.setContent(html_2e29397277094f81b5f1de5b8c8cf8ca);
+        
+
+        marker_6c83d3d1e357498bbba59b89ccd1d22c.bindPopup(popup_9792882fdc634fcb8792ee378d9d9793)
+        ;
+
+        
+    
+    
+            var marker_79ba95c7e6a24c59bc86003cb4a42f91 = L.marker(
+                [-22.85490029714524, -43.53151682927465],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_43116e31e5274aebb0a49030555dd9d5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_79ba95c7e6a24c59bc86003cb4a42f91.setIcon(icon_43116e31e5274aebb0a49030555dd9d5);
+        
+    
+        var popup_47ce230d23b74b34b760c03d576d4ff4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dce4651325714c4a8b5629cb264372b3 = $(`<div id="html_dce4651325714c4a8b5629cb264372b3" style="width: 100.0%; height: 100.0%;">EM Professor Fábio César Pacífico</div>`)[0];
+            popup_47ce230d23b74b34b760c03d576d4ff4.setContent(html_dce4651325714c4a8b5629cb264372b3);
+        
+
+        marker_79ba95c7e6a24c59bc86003cb4a42f91.bindPopup(popup_47ce230d23b74b34b760c03d576d4ff4)
+        ;
+
+        
+    
+    
+            var marker_25604eccfec942859c13d8fb546a74b1 = L.marker(
+                [-22.919634306515345, -43.54772592926212],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_140a14cd15a14dd0a77ea070c0eee560 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_25604eccfec942859c13d8fb546a74b1.setIcon(icon_140a14cd15a14dd0a77ea070c0eee560);
+        
+    
+        var popup_a66c450689bc49eda65098f3ec7320c7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b367dc9e6ff146ebb34513a337a0451a = $(`<div id="html_b367dc9e6ff146ebb34513a337a0451a" style="width: 100.0%; height: 100.0%;">EM Professora Sonia Maria Maltez Fernandez</div>`)[0];
+            popup_a66c450689bc49eda65098f3ec7320c7.setContent(html_b367dc9e6ff146ebb34513a337a0451a);
+        
+
+        marker_25604eccfec942859c13d8fb546a74b1.bindPopup(popup_a66c450689bc49eda65098f3ec7320c7)
+        ;
+
+        
+    
+    
+            var marker_9f14b3e8f62344e785a329044d468e14 = L.marker(
+                [-22.89910880353957, -43.58454012928116],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_ec9a907b7545422baa86e72b552a4e99 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9f14b3e8f62344e785a329044d468e14.setIcon(icon_ec9a907b7545422baa86e72b552a4e99);
+        
+    
+        var popup_0fedd421f561471aa43062504e3d1d64 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9d3e05e6d69644bea56aed1238e2c91b = $(`<div id="html_9d3e05e6d69644bea56aed1238e2c91b" style="width: 100.0%; height: 100.0%;">EM Moacyr Scliar</div>`)[0];
+            popup_0fedd421f561471aa43062504e3d1d64.setContent(html_9d3e05e6d69644bea56aed1238e2c91b);
+        
+
+        marker_9f14b3e8f62344e785a329044d468e14.bindPopup(popup_0fedd421f561471aa43062504e3d1d64)
+        ;
+
+        
+    
+    
+            var marker_4fbfa91e9eab452da7e27d495d0d9306 = L.marker(
+                [-22.891687780147024, -43.55340657098108],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_84db4ec5dddf4231a27696a6476f5b55 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4fbfa91e9eab452da7e27d495d0d9306.setIcon(icon_84db4ec5dddf4231a27696a6476f5b55);
+        
+    
+        var popup_7088a5e2b1834676938bd3e810638e61 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ac0c8f46b1f84da28d90b03bb63ed4b9 = $(`<div id="html_ac0c8f46b1f84da28d90b03bb63ed4b9" style="width: 100.0%; height: 100.0%;">EM Professor Antônio Boaventura</div>`)[0];
+            popup_7088a5e2b1834676938bd3e810638e61.setContent(html_ac0c8f46b1f84da28d90b03bb63ed4b9);
+        
+
+        marker_4fbfa91e9eab452da7e27d495d0d9306.bindPopup(popup_7088a5e2b1834676938bd3e810638e61)
+        ;
+
+        
+    
+    
+            var marker_073b7576609949f4adefd200a2c5a2f8 = L.marker(
+                [-22.87775940044679, -43.53856522926466],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_78534572347a45a38168c034b05ecedc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_073b7576609949f4adefd200a2c5a2f8.setIcon(icon_78534572347a45a38168c034b05ecedc);
+        
+    
+        var popup_74ef4d5d26f8432a9ad2bca03f89623a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_391ccf3b40a8465eb4a678ce999bc048 = $(`<div id="html_391ccf3b40a8465eb4a678ce999bc048" style="width: 100.0%; height: 100.0%;">EM Dulce Araújo "Tia Dulce"</div>`)[0];
+            popup_74ef4d5d26f8432a9ad2bca03f89623a.setContent(html_391ccf3b40a8465eb4a678ce999bc048);
+        
+
+        marker_073b7576609949f4adefd200a2c5a2f8.bindPopup(popup_74ef4d5d26f8432a9ad2bca03f89623a)
+        ;
+
+        
+    
+    
+            var marker_dfc1c998e5ce49cf9d3229836aee236e = L.marker(
+                [-22.88367900130514, -43.61870542924943],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_89df73079b3843d1892d99ccd541fde3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_dfc1c998e5ce49cf9d3229836aee236e.setIcon(icon_89df73079b3843d1892d99ccd541fde3);
+        
+    
+        var popup_eab012f2809a4a4cbb7dc7357c64ecca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aa34e74dd7b54b6b9afc8bf8ba3674bc = $(`<div id="html_aa34e74dd7b54b6b9afc8bf8ba3674bc" style="width: 100.0%; height: 100.0%;">EM Medalhista Olímpica Mayra Aguiar da Silva</div>`)[0];
+            popup_eab012f2809a4a4cbb7dc7357c64ecca.setContent(html_aa34e74dd7b54b6b9afc8bf8ba3674bc);
+        
+
+        marker_dfc1c998e5ce49cf9d3229836aee236e.bindPopup(popup_eab012f2809a4a4cbb7dc7357c64ecca)
+        ;
+
+        
+    
+    
+            var marker_fde773c243a144fe8cc94fd3388229d6 = L.marker(
+                [-22.92512180730735, -43.56690752926973],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_b90fad03d81d4aacb5ccd69a40014e23 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_fde773c243a144fe8cc94fd3388229d6.setIcon(icon_b90fad03d81d4aacb5ccd69a40014e23);
+        
+    
+        var popup_99510fc56d764ce1a1fdab8b2d251b87 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_daf1388f26fb4864a4738bbbe47c4e77 = $(`<div id="html_daf1388f26fb4864a4738bbbe47c4e77" style="width: 100.0%; height: 100.0%;">CP Clementina de Jesus</div>`)[0];
+            popup_99510fc56d764ce1a1fdab8b2d251b87.setContent(html_daf1388f26fb4864a4738bbbe47c4e77);
+        
+
+        marker_fde773c243a144fe8cc94fd3388229d6.bindPopup(popup_99510fc56d764ce1a1fdab8b2d251b87)
+        ;
+
+        
+    
+    
+            var marker_f33fca428438477594bee60dd04c62da = L.marker(
+                [-22.913265505585844, -43.54326372926731],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_7f1dda703fd540bf8704627895b98b8c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f33fca428438477594bee60dd04c62da.setIcon(icon_7f1dda703fd540bf8704627895b98b8c);
+        
+    
+        var popup_51ab4417fe7d4ef9b833c8e62acea254 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_39be119274154a46bdc396fba9998724 = $(`<div id="html_39be119274154a46bdc396fba9998724" style="width: 100.0%; height: 100.0%;">EM Professor Gonçalves</div>`)[0];
+            popup_51ab4417fe7d4ef9b833c8e62acea254.setContent(html_39be119274154a46bdc396fba9998724);
+        
+
+        marker_f33fca428438477594bee60dd04c62da.bindPopup(popup_51ab4417fe7d4ef9b833c8e62acea254)
+        ;
+
+        
+    
+    
+            var marker_337bf2f89a184d9f89ae819b6f80bf52 = L.marker(
+                [-22.93117050818295, -43.54828272925222],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_4893ed3f7f7540aa98b5c12195ea72a8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_337bf2f89a184d9f89ae819b6f80bf52.setIcon(icon_4893ed3f7f7540aa98b5c12195ea72a8);
+        
+    
+        var popup_8fe69acf196b47178f8d5737c1070fac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e122d4a4884e4c50bd2a4063b0dede20 = $(`<div id="html_e122d4a4884e4c50bd2a4063b0dede20" style="width: 100.0%; height: 100.0%;">EM Presidente Nereu Ramos</div>`)[0];
+            popup_8fe69acf196b47178f8d5737c1070fac.setContent(html_e122d4a4884e4c50bd2a4063b0dede20);
+        
+
+        marker_337bf2f89a184d9f89ae819b6f80bf52.bindPopup(popup_8fe69acf196b47178f8d5737c1070fac)
+        ;
+
+        
+    
+    
+            var marker_13eec983f61d4e48b0c1c8d2d886ae53 = L.marker(
+                [-22.90853590490368, -43.54108242926158],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_50c3de9ad3d1414995a09b997bb5e6e6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_13eec983f61d4e48b0c1c8d2d886ae53.setIcon(icon_50c3de9ad3d1414995a09b997bb5e6e6);
+        
+    
+        var popup_3d14fa953ea54953b7dda295023fb6bb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6c3b8e0e9c094f8eb030a5847810f276 = $(`<div id="html_6c3b8e0e9c094f8eb030a5847810f276" style="width: 100.0%; height: 100.0%;">CP Lamartine Babo</div>`)[0];
+            popup_3d14fa953ea54953b7dda295023fb6bb.setContent(html_6c3b8e0e9c094f8eb030a5847810f276);
+        
+
+        marker_13eec983f61d4e48b0c1c8d2d886ae53.bindPopup(popup_3d14fa953ea54953b7dda295023fb6bb)
+        ;
+
+        
+    
+    
+            var marker_c72e0fc1c5a548118b25640537c8a415 = L.marker(
+                [-22.898966703508112, -43.535105329248786],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_e6b1dfbd6e674ea8b9494b8def210fc9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_c72e0fc1c5a548118b25640537c8a415.setIcon(icon_e6b1dfbd6e674ea8b9494b8def210fc9);
+        
+    
+        var popup_f86229ee92bd44bb8edec8a3c3b923af = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8c437f1b0e4c43ed823b66e98807609a = $(`<div id="html_8c437f1b0e4c43ed823b66e98807609a" style="width: 100.0%; height: 100.0%;">CP Francisco Cavalcante Pontes de Miranda</div>`)[0];
+            popup_f86229ee92bd44bb8edec8a3c3b923af.setContent(html_8c437f1b0e4c43ed823b66e98807609a);
+        
+
+        marker_c72e0fc1c5a548118b25640537c8a415.bindPopup(popup_f86229ee92bd44bb8edec8a3c3b923af)
+        ;
+
+        
+    
+    
+            var marker_c9a812f66e7f4ada92d72d15f4c681cd = L.marker(
+                [-22.927488507642412, -43.55630382926756],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_2dcc3499047c4beeae04bfa3ed563017 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_c9a812f66e7f4ada92d72d15f4c681cd.setIcon(icon_2dcc3499047c4beeae04bfa3ed563017);
+        
+    
+        var popup_b00987d12546490786755175b7a88f67 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_446d8dbcd306470db143874959d3ec8d = $(`<div id="html_446d8dbcd306470db143874959d3ec8d" style="width: 100.0%; height: 100.0%;">CP Anita Malfatti</div>`)[0];
+            popup_b00987d12546490786755175b7a88f67.setContent(html_446d8dbcd306470db143874959d3ec8d);
+        
+
+        marker_c9a812f66e7f4ada92d72d15f4c681cd.bindPopup(popup_b00987d12546490786755175b7a88f67)
+        ;
+
+        
+    
+    
+            var marker_01c25530c92c49a18b93cfc572977e94 = L.marker(
+                [-22.887315401846916, -43.587293829269534],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_62a292048bc843f1bb094f4955a3889a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_01c25530c92c49a18b93cfc572977e94.setIcon(icon_62a292048bc843f1bb094f4955a3889a);
+        
+    
+        var popup_42a377189f8340279f90c4f7771dd509 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_82b7b45f39594c6a96af46a4e784a22c = $(`<div id="html_82b7b45f39594c6a96af46a4e784a22c" style="width: 100.0%; height: 100.0%;">CP Professor Darcy Ribeiro</div>`)[0];
+            popup_42a377189f8340279f90c4f7771dd509.setContent(html_82b7b45f39594c6a96af46a4e784a22c);
+        
+
+        marker_01c25530c92c49a18b93cfc572977e94.bindPopup(popup_42a377189f8340279f90c4f7771dd509)
+        ;
+
+        
+    
+    
+            var marker_b0c0208dc703492b9ae3f89812abd73e = L.marker(
+                [-22.886808001755426, -43.556618229269255],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_67e1286138ff4fac9def7e8367f32625 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_b0c0208dc703492b9ae3f89812abd73e.setIcon(icon_67e1286138ff4fac9def7e8367f32625);
+        
+    
+        var popup_483b521b382d467aa76d70c970ffa0a8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a6fcaed9aa164fcab00f402d63076715 = $(`<div id="html_a6fcaed9aa164fcab00f402d63076715" style="width: 100.0%; height: 100.0%;">CP Dr. Ernesto (Che) Guevara</div>`)[0];
+            popup_483b521b382d467aa76d70c970ffa0a8.setContent(html_a6fcaed9aa164fcab00f402d63076715);
+        
+
+        marker_b0c0208dc703492b9ae3f89812abd73e.bindPopup(popup_483b521b382d467aa76d70c970ffa0a8)
+        ;
+
+        
+    
+    
+            var marker_4efc533bf84f4572aa7df51aa82d088c = L.marker(
+                [-22.895641703030932, -43.570702229253406],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_28cbb82c442344b1a038f9913e245649 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_4efc533bf84f4572aa7df51aa82d088c.setIcon(icon_28cbb82c442344b1a038f9913e245649);
+        
+    
+        var popup_c67710bfa4b04855b48df858668365e2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_84e5cb8200ee497da84fc0763139aafd = $(`<div id="html_84e5cb8200ee497da84fc0763139aafd" style="width: 100.0%; height: 100.0%;">CP Nelson Mandela</div>`)[0];
+            popup_c67710bfa4b04855b48df858668365e2.setContent(html_84e5cb8200ee497da84fc0763139aafd);
+        
+
+        marker_4efc533bf84f4572aa7df51aa82d088c.bindPopup(popup_c67710bfa4b04855b48df858668365e2)
+        ;
+
+        
+    
+    
+            var marker_629cf6aa385243d68139da960f8c0fad = L.marker(
+                [-22.89059490230129, -43.580841029273174],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_cc1fc124f2384fb19bd819e90d6d1354 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_629cf6aa385243d68139da960f8c0fad.setIcon(icon_cc1fc124f2384fb19bd819e90d6d1354);
+        
+    
+        var popup_22b81f22b6f6477997e3e7831e7b0bd3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b3fbc1502e764a90b369b52770097534 = $(`<div id="html_b3fbc1502e764a90b369b52770097534" style="width: 100.0%; height: 100.0%;">CP Armindo Marcílio Doutel de Andrade</div>`)[0];
+            popup_22b81f22b6f6477997e3e7831e7b0bd3.setContent(html_b3fbc1502e764a90b369b52770097534);
+        
+
+        marker_629cf6aa385243d68139da960f8c0fad.bindPopup(popup_22b81f22b6f6477997e3e7831e7b0bd3)
+        ;
+
+        
+    
+    
+            var marker_5fe169b0ed6643f58d8894907336e114 = L.marker(
+                [-22.891743602466406, -43.56174272925371],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_25ba9197b1894e898e80974b89b1c0c2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_5fe169b0ed6643f58d8894907336e114.setIcon(icon_25ba9197b1894e898e80974b89b1c0c2);
+        
+    
+        var popup_16e7a372cbf04626a8eb004d2f5d6450 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3c831d423e82451a84d201ed20d14e34 = $(`<div id="html_3c831d423e82451a84d201ed20d14e34" style="width: 100.0%; height: 100.0%;">CM Cecília Meireles</div>`)[0];
+            popup_16e7a372cbf04626a8eb004d2f5d6450.setContent(html_3c831d423e82451a84d201ed20d14e34);
+        
+
+        marker_5fe169b0ed6643f58d8894907336e114.bindPopup(popup_16e7a372cbf04626a8eb004d2f5d6450)
+        ;
+
+        
+    
+    
+            var marker_171ba19ed6c84973b63622127e5c32c8 = L.marker(
+                [-22.84272629539031, -43.50640222926972],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_f82871e2b42d4d23b94cd499360190a3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_171ba19ed6c84973b63622127e5c32c8.setIcon(icon_f82871e2b42d4d23b94cd499360190a3);
+        
+    
+        var popup_d5f6950cea0e4653a6bb99d7ed8e08c3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_07ab26c3aa29495da25da28906d4b670 = $(`<div id="html_07ab26c3aa29495da25da28906d4b670" style="width: 100.0%; height: 100.0%;">CM Sonho Feliz</div>`)[0];
+            popup_d5f6950cea0e4653a6bb99d7ed8e08c3.setContent(html_07ab26c3aa29495da25da28906d4b670);
+        
+
+        marker_171ba19ed6c84973b63622127e5c32c8.bindPopup(popup_d5f6950cea0e4653a6bb99d7ed8e08c3)
+        ;
+
+        
+    
+    
+            var marker_1b81b7679a054087949663c94463a654 = L.marker(
+                [-22.9123389054566, -43.53293082927726],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_de5407b749b84998a892af866d465e92 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_1b81b7679a054087949663c94463a654.setIcon(icon_de5407b749b84998a892af866d465e92);
+        
+    
+        var popup_63bdc2424cdc4112af08ffa18c802b5d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_75accd9005c14143895285e96da0eb54 = $(`<div id="html_75accd9005c14143895285e96da0eb54" style="width: 100.0%; height: 100.0%;">CM Jardim Monte Santo</div>`)[0];
+            popup_63bdc2424cdc4112af08ffa18c802b5d.setContent(html_75accd9005c14143895285e96da0eb54);
+        
+
+        marker_1b81b7679a054087949663c94463a654.bindPopup(popup_63bdc2424cdc4112af08ffa18c802b5d)
+        ;
+
+        
+    
+    
+            var marker_fe99d36c8c544082b16180a6ab8307db = L.marker(
+                [-22.88875370204761, -43.58720162928066],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_0eadb28c4888402488f27f28c66a0c51 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_fe99d36c8c544082b16180a6ab8307db.setIcon(icon_0eadb28c4888402488f27f28c66a0c51);
+        
+    
+        var popup_0d50ba53ac9a42d29548787d5d5ef7f3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d8123a2d3aaa42cab1b8daf09c0dbee9 = $(`<div id="html_d8123a2d3aaa42cab1b8daf09c0dbee9" style="width: 100.0%; height: 100.0%;">CM Adélia Vieira</div>`)[0];
+            popup_0d50ba53ac9a42d29548787d5d5ef7f3.setContent(html_d8123a2d3aaa42cab1b8daf09c0dbee9);
+        
+
+        marker_fe99d36c8c544082b16180a6ab8307db.bindPopup(popup_0d50ba53ac9a42d29548787d5d5ef7f3)
+        ;
+
+        
+    
+    
+            var marker_b2d9f02445be4392883d1bc09fc54ef7 = L.marker(
+                [-22.883565201293752, -43.60492352925678],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_93bc0d6305354da88dcfccdfeb85e04d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_b2d9f02445be4392883d1bc09fc54ef7.setIcon(icon_93bc0d6305354da88dcfccdfeb85e04d);
+        
+    
+        var popup_3bef459db5574bd282d7e34abb35fb20 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6d3eceaca8514360951fc750f30345be = $(`<div id="html_6d3eceaca8514360951fc750f30345be" style="width: 100.0%; height: 100.0%;">CM Mário Lombardi</div>`)[0];
+            popup_3bef459db5574bd282d7e34abb35fb20.setContent(html_6d3eceaca8514360951fc750f30345be);
+        
+
+        marker_b2d9f02445be4392883d1bc09fc54ef7.bindPopup(popup_3bef459db5574bd282d7e34abb35fb20)
+        ;
+
+        
+    
+    
+            var marker_fa8f53d560da43609c8bc4f87720ba25 = L.marker(
+                [-22.913557805631775, -43.53099142928098],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_7abea2cb42e7468d94774639b3479d2c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_fa8f53d560da43609c8bc4f87720ba25.setIcon(icon_7abea2cb42e7468d94774639b3479d2c);
+        
+    
+        var popup_62e485d510e44abd882112137bd3b489 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d53b822541fb424f8de48423ccdf4afe = $(`<div id="html_d53b822541fb424f8de48423ccdf4afe" style="width: 100.0%; height: 100.0%;">CM Zélia Chauke Curi</div>`)[0];
+            popup_62e485d510e44abd882112137bd3b489.setContent(html_d53b822541fb424f8de48423ccdf4afe);
+        
+
+        marker_fa8f53d560da43609c8bc4f87720ba25.bindPopup(popup_62e485d510e44abd882112137bd3b489)
+        ;
+
+        
+    
+    
+            var marker_e4e7e2e2d605484badf7bccab4b76c06 = L.marker(
+                [-22.87702470034856, -43.58057002925729],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_8fce5e56697146c5a42ae6fe41dde0ae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_e4e7e2e2d605484badf7bccab4b76c06.setIcon(icon_8fce5e56697146c5a42ae6fe41dde0ae);
+        
+    
+        var popup_588cf0e173e64262a70991adde7ac1d1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3a5b0a647d664df9950c4d54c5cf18b8 = $(`<div id="html_3a5b0a647d664df9950c4d54c5cf18b8" style="width: 100.0%; height: 100.0%;">CM Padre Valter da Costa Santos</div>`)[0];
+            popup_588cf0e173e64262a70991adde7ac1d1.setContent(html_3a5b0a647d664df9950c4d54c5cf18b8);
+        
+
+        marker_e4e7e2e2d605484badf7bccab4b76c06.bindPopup(popup_588cf0e173e64262a70991adde7ac1d1)
+        ;
+
+        
+    
+    
+            var marker_073c3029f48f4efb969475021704e283 = L.marker(
+                [-22.911101505278598, -43.590306029261164],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_d38e2e5b8a4442b198e9b7c2d072414f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_073c3029f48f4efb969475021704e283.setIcon(icon_d38e2e5b8a4442b198e9b7c2d072414f);
+        
+    
+        var popup_066a047cdcc94cfc93fc3ddd8918eca7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fcc6ed80f11d4bf985d1bb7237b15876 = $(`<div id="html_fcc6ed80f11d4bf985d1bb7237b15876" style="width: 100.0%; height: 100.0%;">CM Criando o Futuro</div>`)[0];
+            popup_066a047cdcc94cfc93fc3ddd8918eca7.setContent(html_fcc6ed80f11d4bf985d1bb7237b15876);
+        
+
+        marker_073c3029f48f4efb969475021704e283.bindPopup(popup_066a047cdcc94cfc93fc3ddd8918eca7)
+        ;
+
+        
+    
+    
+            var marker_14beeb6396b34462b3bbbc2367c08bc0 = L.marker(
+                [-22.899782203642538, -43.53403812925039],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_a9f84782be0d4cb0b7f2ea89ccd5639e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_14beeb6396b34462b3bbbc2367c08bc0.setIcon(icon_a9f84782be0d4cb0b7f2ea89ccd5639e);
+        
+    
+        var popup_4c46153539ac499cb82ac79fb948bd65 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_306c99c0fdb24d0a8ddf392835027d5c = $(`<div id="html_306c99c0fdb24d0a8ddf392835027d5c" style="width: 100.0%; height: 100.0%;">CM Raul Cortez</div>`)[0];
+            popup_4c46153539ac499cb82ac79fb948bd65.setContent(html_306c99c0fdb24d0a8ddf392835027d5c);
+        
+
+        marker_14beeb6396b34462b3bbbc2367c08bc0.bindPopup(popup_4c46153539ac499cb82ac79fb948bd65)
+        ;
+
+        
+    
+    
+            var marker_6fe80a881fa74341a11b42ab35ea8afd = L.marker(
+                [-22.92075450667476, -43.555947429244625],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_dbf02f6712284bab9be66e7470281760 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_6fe80a881fa74341a11b42ab35ea8afd.setIcon(icon_dbf02f6712284bab9be66e7470281760);
+        
+    
+        var popup_6ce350bdeeba4c0da8b08425b4f738d4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5617ffdf21ba41c08c8bcaf5a729283b = $(`<div id="html_5617ffdf21ba41c08c8bcaf5a729283b" style="width: 100.0%; height: 100.0%;">CM Emilio Ibrahim Lázaro Jubram Dib</div>`)[0];
+            popup_6ce350bdeeba4c0da8b08425b4f738d4.setContent(html_5617ffdf21ba41c08c8bcaf5a729283b);
+        
+
+        marker_6fe80a881fa74341a11b42ab35ea8afd.bindPopup(popup_6ce350bdeeba4c0da8b08425b4f738d4)
+        ;
+
+        
+    
+    
+            var marker_97fce7a766cd40f1b7c71cfd4146f11a = L.marker(
+                [-22.88585920162373, -43.559866929267216],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_42221903031d451eab997daa240e609f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_97fce7a766cd40f1b7c71cfd4146f11a.setIcon(icon_42221903031d451eab997daa240e609f);
+        
+    
+        var popup_c3b3d1ec7c364c7e8287f7ddc10cae4d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_195f89b6b3ea4712b1f5951e9584d7aa = $(`<div id="html_195f89b6b3ea4712b1f5951e9584d7aa" style="width: 100.0%; height: 100.0%;">CM Elizabeth Tavares de Souza - Betinha</div>`)[0];
+            popup_c3b3d1ec7c364c7e8287f7ddc10cae4d.setContent(html_195f89b6b3ea4712b1f5951e9584d7aa);
+        
+
+        marker_97fce7a766cd40f1b7c71cfd4146f11a.bindPopup(popup_c3b3d1ec7c364c7e8287f7ddc10cae4d)
+        ;
+
+        
+    
+    
+            var marker_f986482867924f329cbc6a1f871250d5 = L.marker(
+                [-22.882003401056057, -43.61260852926251],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_ecde398c0d314b0282fee5fa697874a4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f986482867924f329cbc6a1f871250d5.setIcon(icon_ecde398c0d314b0282fee5fa697874a4);
+        
+    
+        var popup_d4739aa40f4147278db147e3085749a1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_89cbf05e44774bbe9aac8e16df70ea07 = $(`<div id="html_89cbf05e44774bbe9aac8e16df70ea07" style="width: 100.0%; height: 100.0%;">EDI Pintando o Sete</div>`)[0];
+            popup_d4739aa40f4147278db147e3085749a1.setContent(html_89cbf05e44774bbe9aac8e16df70ea07);
+        
+
+        marker_f986482867924f329cbc6a1f871250d5.bindPopup(popup_d4739aa40f4147278db147e3085749a1)
+        ;
+
+        
+    
+    
+            var marker_48b7ffed272a4fbea294f2e9d4ba2b3d = L.marker(
+                [-22.912134205433848, -43.578178129263335],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_f1fd7605af5243d6a7e10514a6b2a24a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_48b7ffed272a4fbea294f2e9d4ba2b3d.setIcon(icon_f1fd7605af5243d6a7e10514a6b2a24a);
+        
+    
+        var popup_6c5f1345ba034a41bb31ff9d2a8dc614 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_51ec8c4eb1fb4ee8a98266c1f5a853a3 = $(`<div id="html_51ec8c4eb1fb4ee8a98266c1f5a853a3" style="width: 100.0%; height: 100.0%;">EDI Ludmila Máximo Moreira Cardoso</div>`)[0];
+            popup_6c5f1345ba034a41bb31ff9d2a8dc614.setContent(html_51ec8c4eb1fb4ee8a98266c1f5a853a3);
+        
+
+        marker_48b7ffed272a4fbea294f2e9d4ba2b3d.bindPopup(popup_6c5f1345ba034a41bb31ff9d2a8dc614)
+        ;
+
+        
+    
+    
+            var marker_6729b83d88224f589ae335769f4a4cdd = L.marker(
+                [-22.879650200720285, -43.613796729269154],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_2d034ed6221a4067b0e87f2aa615e074 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6729b83d88224f589ae335769f4a4cdd.setIcon(icon_2d034ed6221a4067b0e87f2aa615e074);
+        
+    
+        var popup_6dfe5b18a7064c7e86cc3f87e8743ae2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_863d6a33c03048418680904c0cebab50 = $(`<div id="html_863d6a33c03048418680904c0cebab50" style="width: 100.0%; height: 100.0%;">EDI Renan de Souza Leal</div>`)[0];
+            popup_6dfe5b18a7064c7e86cc3f87e8743ae2.setContent(html_863d6a33c03048418680904c0cebab50);
+        
+
+        marker_6729b83d88224f589ae335769f4a4cdd.bindPopup(popup_6dfe5b18a7064c7e86cc3f87e8743ae2)
+        ;
+
+        
+    
+    
+            var marker_269556ed43c1443ea2da173332d79705 = L.marker(
+                [-22.898002903380963, -43.584390929246744],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_ca31cd90a11846999ad93e18fa516e17 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_269556ed43c1443ea2da173332d79705.setIcon(icon_ca31cd90a11846999ad93e18fa516e17);
+        
+    
+        var popup_f0cd1284c2db40f59f80cb9c38531b04 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f460d1b5b64c4c68b9792c1c799a1172 = $(`<div id="html_f460d1b5b64c4c68b9792c1c799a1172" style="width: 100.0%; height: 100.0%;">EDI Cantora Cesária Évora</div>`)[0];
+            popup_f0cd1284c2db40f59f80cb9c38531b04.setContent(html_f460d1b5b64c4c68b9792c1c799a1172);
+        
+
+        marker_269556ed43c1443ea2da173332d79705.bindPopup(popup_f0cd1284c2db40f59f80cb9c38531b04)
+        ;
+
+        
+    
+    
+            var marker_795df91858ee4683a0fd53e013f7d242 = L.marker(
+                [-22.892720302618677, -43.56746492927643],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_4f454d2bbed54c92bf9f27aa3da0952c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_795df91858ee4683a0fd53e013f7d242.setIcon(icon_4f454d2bbed54c92bf9f27aa3da0952c);
+        
+    
+        var popup_4ed754e5e2ad4eb1b40cad36bfa8fb4c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_34370b8023d040059cb601d0bfe11088 = $(`<div id="html_34370b8023d040059cb601d0bfe11088" style="width: 100.0%; height: 100.0%;">EDI Urbano de Freitas</div>`)[0];
+            popup_4ed754e5e2ad4eb1b40cad36bfa8fb4c.setContent(html_34370b8023d040059cb601d0bfe11088);
+        
+
+        marker_795df91858ee4683a0fd53e013f7d242.bindPopup(popup_4ed754e5e2ad4eb1b40cad36bfa8fb4c)
+        ;
+
+        
+    
+    
+            var marker_dfedfea292bf495fa9c074926768a5af = L.marker(
+                [-22.92991570799014, -43.567956929261015],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_379751f24e244570993a975a71863985 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_dfedfea292bf495fa9c074926768a5af.setIcon(icon_379751f24e244570993a975a71863985);
+        
+    
+        var popup_b3224312e62e43f2bcf23ee52910636f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_01dd3b2a85db4c7a9b46c6ee29d8bad2 = $(`<div id="html_01dd3b2a85db4c7a9b46c6ee29d8bad2" style="width: 100.0%; height: 100.0%;">EDI Professora Marta Regina Perrota</div>`)[0];
+            popup_b3224312e62e43f2bcf23ee52910636f.setContent(html_01dd3b2a85db4c7a9b46c6ee29d8bad2);
+        
+
+        marker_dfedfea292bf495fa9c074926768a5af.bindPopup(popup_b3224312e62e43f2bcf23ee52910636f)
+        ;
+
+        
+    
+    
+            var marker_29c3cd2cde464c6a8db5ac0a3ba3ccb4 = L.marker(
+                [-22.909066604989412, -43.55937672928144],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_50e5cbc6bf9648ac8b3827ee53865880 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_29c3cd2cde464c6a8db5ac0a3ba3ccb4.setIcon(icon_50e5cbc6bf9648ac8b3827ee53865880);
+        
+    
+        var popup_cc65d5676eb74409b3239b087aac32b6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3a0101bbf5184a8da107e7455448d6ec = $(`<div id="html_3a0101bbf5184a8da107e7455448d6ec" style="width: 100.0%; height: 100.0%;">EDI Campo Grande</div>`)[0];
+            popup_cc65d5676eb74409b3239b087aac32b6.setContent(html_3a0101bbf5184a8da107e7455448d6ec);
+        
+
+        marker_29c3cd2cde464c6a8db5ac0a3ba3ccb4.bindPopup(popup_cc65d5676eb74409b3239b087aac32b6)
+        ;
+
+        
+    
+    
+            var marker_ff90e129a2e5443dbc5dea2ed298fd0d = L.marker(
+                [-22.88907000208163, -43.579093929261674],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_85b0329f6ff04e1597f5a7a737cd6aa3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ff90e129a2e5443dbc5dea2ed298fd0d.setIcon(icon_85b0329f6ff04e1597f5a7a737cd6aa3);
+        
+    
+        var popup_ee9dcf31501a477596506fe15594f406 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9c4ac42a84284fdb9ed8e22addff43bf = $(`<div id="html_9c4ac42a84284fdb9ed8e22addff43bf" style="width: 100.0%; height: 100.0%;">EDI Dom Bosco</div>`)[0];
+            popup_ee9dcf31501a477596506fe15594f406.setContent(html_9c4ac42a84284fdb9ed8e22addff43bf);
+        
+
+        marker_ff90e129a2e5443dbc5dea2ed298fd0d.bindPopup(popup_ee9dcf31501a477596506fe15594f406)
+        ;
+
+        
+    
+    
+            var marker_ebad1baa7d4042aea0bea118dcc4bcd9 = L.marker(
+                [-22.91232976357785, -43.59413237217046],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_e1e2c985afb24c5aaea57329d458c332 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ebad1baa7d4042aea0bea118dcc4bcd9.setIcon(icon_e1e2c985afb24c5aaea57329d458c332);
+        
+    
+        var popup_310c7068344f4fe69afab869234b059d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_16767f514a8b4b519ee3f957b31c0535 = $(`<div id="html_16767f514a8b4b519ee3f957b31c0535" style="width: 100.0%; height: 100.0%;">EDI Isabel</div>`)[0];
+            popup_310c7068344f4fe69afab869234b059d.setContent(html_16767f514a8b4b519ee3f957b31c0535);
+        
+
+        marker_ebad1baa7d4042aea0bea118dcc4bcd9.bindPopup(popup_310c7068344f4fe69afab869234b059d)
+        ;
+
+        
+    
+    
+            var marker_a468141efacb4bf78e6178b6c0a87c75 = L.marker(
+                [-22.850098496449874, -43.52930637926046],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_899e982904364e95868a3ecd8d37cfa0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a468141efacb4bf78e6178b6c0a87c75.setIcon(icon_899e982904364e95868a3ecd8d37cfa0);
+        
+    
+        var popup_cd515e8f2562416a84f30c13809fda56 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ca54c1c26e8143fb8d7e1d303eda643f = $(`<div id="html_ca54c1c26e8143fb8d7e1d303eda643f" style="width: 100.0%; height: 100.0%;">EDI Professor Marco Altino de Oliveira</div>`)[0];
+            popup_cd515e8f2562416a84f30c13809fda56.setContent(html_ca54c1c26e8143fb8d7e1d303eda643f);
+        
+
+        marker_a468141efacb4bf78e6178b6c0a87c75.bindPopup(popup_cd515e8f2562416a84f30c13809fda56)
+        ;
+
+        
+    
+    
+            var marker_7d1936c2b4874f23982db71b5cc27a27 = L.marker(
+                [-22.923012306999624, -43.54145532926706],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_7ee76e790e7a45efbf083580013aaa19 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7d1936c2b4874f23982db71b5cc27a27.setIcon(icon_7ee76e790e7a45efbf083580013aaa19);
+        
+    
+        var popup_a5eec751f62e429cae0f37a3011ab420 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_abb40271744c4a8586a4efd29e4d481d = $(`<div id="html_abb40271744c4a8586a4efd29e4d481d" style="width: 100.0%; height: 100.0%;">EDI Professor Nestor Manoel Pinto</div>`)[0];
+            popup_a5eec751f62e429cae0f37a3011ab420.setContent(html_abb40271744c4a8586a4efd29e4d481d);
+        
+
+        marker_7d1936c2b4874f23982db71b5cc27a27.bindPopup(popup_a5eec751f62e429cae0f37a3011ab420)
+        ;
+
+        
+    
+    
+            var marker_3a4a8a9057f84255921eb764f742a5ea = L.marker(
+                [-22.869779499301814, -43.55055502927277],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_43ccdb1b64c24dc0818dfdd3cd8e0c43 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3a4a8a9057f84255921eb764f742a5ea.setIcon(icon_43ccdb1b64c24dc0818dfdd3cd8e0c43);
+        
+    
+        var popup_08425f15e1b149c28c6ed6807c25f0e5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4f666af852374f58865b7b35a67920d6 = $(`<div id="html_4f666af852374f58865b7b35a67920d6" style="width: 100.0%; height: 100.0%;">EDI Professora Sirléia Silva Reis</div>`)[0];
+            popup_08425f15e1b149c28c6ed6807c25f0e5.setContent(html_4f666af852374f58865b7b35a67920d6);
+        
+
+        marker_3a4a8a9057f84255921eb764f742a5ea.bindPopup(popup_08425f15e1b149c28c6ed6807c25f0e5)
+        ;
+
+        
+    
+    
+            var marker_bebe5bac33ea4562b6759e23cf225839 = L.marker(
+                [-22.894174302828542, -43.557840829268905],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_34506487fa42497c9ead4780c6cbee28 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bebe5bac33ea4562b6759e23cf225839.setIcon(icon_34506487fa42497c9ead4780c6cbee28);
+        
+    
+        var popup_634156d83155414caabe26f6f350828c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3f9a1579f96e4059b262c43e5655d685 = $(`<div id="html_3f9a1579f96e4059b262c43e5655d685" style="width: 100.0%; height: 100.0%;">EDI Professor João Fernandes Filho</div>`)[0];
+            popup_634156d83155414caabe26f6f350828c.setContent(html_3f9a1579f96e4059b262c43e5655d685);
+        
+
+        marker_bebe5bac33ea4562b6759e23cf225839.bindPopup(popup_634156d83155414caabe26f6f350828c)
+        ;
+
+        
+    
+    
+            var marker_45884c637cf3480d9c8a812224a4ac3e = L.marker(
+                [-22.872246899650573, -43.57729182925504],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_60fdd8e4e4d54148a69327447dd17ce1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_45884c637cf3480d9c8a812224a4ac3e.setIcon(icon_60fdd8e4e4d54148a69327447dd17ce1);
+        
+    
+        var popup_9e4a1befa4ae47d4a3978f18a38a5270 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_130ba8459f54484c9cf57ce37605a3a8 = $(`<div id="html_130ba8459f54484c9cf57ce37605a3a8" style="width: 100.0%; height: 100.0%;">EDI Professora Eugênia de Almeida Azevedo</div>`)[0];
+            popup_9e4a1befa4ae47d4a3978f18a38a5270.setContent(html_130ba8459f54484c9cf57ce37605a3a8);
+        
+
+        marker_45884c637cf3480d9c8a812224a4ac3e.bindPopup(popup_9e4a1befa4ae47d4a3978f18a38a5270)
+        ;
+
+        
+    
+    
+            var marker_26e0693f3334450397fd741961d85a73 = L.marker(
+                [-22.913952005686586, -43.55219262926515],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_46368ad4a7ab4e5fab07182514c42138 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_26e0693f3334450397fd741961d85a73.setIcon(icon_46368ad4a7ab4e5fab07182514c42138);
+        
+    
+        var popup_4599f25f90994d0aa3d84226b23347af = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f96c686b7c17464a88a8f7f09e5acece = $(`<div id="html_f96c686b7c17464a88a8f7f09e5acece" style="width: 100.0%; height: 100.0%;">EDI Joari</div>`)[0];
+            popup_4599f25f90994d0aa3d84226b23347af.setContent(html_f96c686b7c17464a88a8f7f09e5acece);
+        
+
+        marker_26e0693f3334450397fd741961d85a73.bindPopup(popup_4599f25f90994d0aa3d84226b23347af)
+        ;
+
+        
+    
+    
+            var marker_5ca733af766a4a388d4149c26d755346 = L.marker(
+                [-22.913380105608134, -43.58013452926141],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_83fc69ccb4fd4027b6dcd23e97d0413b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5ca733af766a4a388d4149c26d755346.setIcon(icon_83fc69ccb4fd4027b6dcd23e97d0413b);
+        
+    
+        var popup_61f55a7493584bb5ad9ae93f94c5512d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_389584fde04a483a9d87046f5dc7334e = $(`<div id="html_389584fde04a483a9d87046f5dc7334e" style="width: 100.0%; height: 100.0%;">EDI Professor Almo Saturnino</div>`)[0];
+            popup_61f55a7493584bb5ad9ae93f94c5512d.setContent(html_389584fde04a483a9d87046f5dc7334e);
+        
+
+        marker_5ca733af766a4a388d4149c26d755346.bindPopup(popup_61f55a7493584bb5ad9ae93f94c5512d)
+        ;
+
+        
+    
+    
+            var marker_307760e823f34ce6996f2c9ce8e0e5aa = L.marker(
+                [-22.859150897770117, -43.536665829269296],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_72f3e16e5e6c42ec9259a2f42314ab4f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_307760e823f34ce6996f2c9ce8e0e5aa.setIcon(icon_72f3e16e5e6c42ec9259a2f42314ab4f);
+        
+    
+        var popup_858dffa2067b45a990e1ec1dc13c5027 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d8416d61ebac4962aa6dc70d963e24df = $(`<div id="html_d8416d61ebac4962aa6dc70d963e24df" style="width: 100.0%; height: 100.0%;">EDI Professora Enyr Portilho de Avellar</div>`)[0];
+            popup_858dffa2067b45a990e1ec1dc13c5027.setContent(html_d8416d61ebac4962aa6dc70d963e24df);
+        
+
+        marker_307760e823f34ce6996f2c9ce8e0e5aa.bindPopup(popup_858dffa2067b45a990e1ec1dc13c5027)
+        ;
+
+        
+    
+    
+            var marker_4c2aa88144bc46f09f668bd1f5d33be3 = L.marker(
+                [-22.91781260623859, -43.5604263292569],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_940e4a7bb1ad48d6b753b907cf5f31db = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4c2aa88144bc46f09f668bd1f5d33be3.setIcon(icon_940e4a7bb1ad48d6b753b907cf5f31db);
+        
+    
+        var popup_a5161b5aa4b2421b9cd976fbf3085267 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7ed2a0e028f1487b8d2d6f4d1cb1e847 = $(`<div id="html_7ed2a0e028f1487b8d2d6f4d1cb1e847" style="width: 100.0%; height: 100.0%;">EDI Professor André Luiz Gils</div>`)[0];
+            popup_a5161b5aa4b2421b9cd976fbf3085267.setContent(html_7ed2a0e028f1487b8d2d6f4d1cb1e847);
+        
+
+        marker_4c2aa88144bc46f09f668bd1f5d33be3.bindPopup(popup_a5161b5aa4b2421b9cd976fbf3085267)
+        ;
+
+        
+    
+    
+            var marker_5bce08c5c830459ab6faa2ab9d83a44a = L.marker(
+                [-22.882595301143994, -43.53892512927959],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_9298965ded504a008d20396f103a43d9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5bce08c5c830459ab6faa2ab9d83a44a.setIcon(icon_9298965ded504a008d20396f103a43d9);
+        
+    
+        var popup_45735e3bd7fc4c4fbc24ed9fa45a4a08 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_39fa72f368944a029e806dd455eac866 = $(`<div id="html_39fa72f368944a029e806dd455eac866" style="width: 100.0%; height: 100.0%;">EDI Professor Dersu Gabriel Bicego</div>`)[0];
+            popup_45735e3bd7fc4c4fbc24ed9fa45a4a08.setContent(html_39fa72f368944a029e806dd455eac866);
+        
+
+        marker_5bce08c5c830459ab6faa2ab9d83a44a.bindPopup(popup_45735e3bd7fc4c4fbc24ed9fa45a4a08)
+        ;
+
+        
+    
+    
+            var marker_afd8bc60eb4f4dada27ec4b377e14f10 = L.marker(
+                [-22.93327890848458, -43.560313229258924],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_ae114ba0b073473f86c693d37f04b7bf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_afd8bc60eb4f4dada27ec4b377e14f10.setIcon(icon_ae114ba0b073473f86c693d37f04b7bf);
+        
+    
+        var popup_81688a6629d242cf8fa16c7a50d88c29 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b2c619de259449169f9cdf46436ea974 = $(`<div id="html_b2c619de259449169f9cdf46436ea974" style="width: 100.0%; height: 100.0%;">EDI Alberto Ferreira Pinto</div>`)[0];
+            popup_81688a6629d242cf8fa16c7a50d88c29.setContent(html_b2c619de259449169f9cdf46436ea974);
+        
+
+        marker_afd8bc60eb4f4dada27ec4b377e14f10.bindPopup(popup_81688a6629d242cf8fa16c7a50d88c29)
+        ;
+
+        
+    
+    
+            var marker_22f2537555d4415f957b1830bd6e0ae4 = L.marker(
+                [-22.875439100116445, -43.53669712925077],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_eec94c31534c482a827d633c25072b77 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_22f2537555d4415f957b1830bd6e0ae4.setIcon(icon_eec94c31534c482a827d633c25072b77);
+        
+    
+        var popup_0b58248b95e84de5993bbd77ffc8dea8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_406aff318c2844d4a8523ff8b743ba6f = $(`<div id="html_406aff318c2844d4a8523ff8b743ba6f" style="width: 100.0%; height: 100.0%;">EDI Professora Teresinha de Jesus Siqueira Brown</div>`)[0];
+            popup_0b58248b95e84de5993bbd77ffc8dea8.setContent(html_406aff318c2844d4a8523ff8b743ba6f);
+        
+
+        marker_22f2537555d4415f957b1830bd6e0ae4.bindPopup(popup_0b58248b95e84de5993bbd77ffc8dea8)
+        ;
+
+        
+    
+    
+            var marker_5cc9d50d80ac46c0878317de530404a5 = L.marker(
+                [-22.89359850273648, -43.58844372926573],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_9d1e5ecfb36e4d31984b782903e2e20a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5cc9d50d80ac46c0878317de530404a5.setIcon(icon_9d1e5ecfb36e4d31984b782903e2e20a);
+        
+    
+        var popup_bfdfc3725410494fad6f7675d0f42a73 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c9f60f4596c746bd947973581f965e45 = $(`<div id="html_c9f60f4596c746bd947973581f965e45" style="width: 100.0%; height: 100.0%;">EDI Alyrio Cavallieri</div>`)[0];
+            popup_bfdfc3725410494fad6f7675d0f42a73.setContent(html_c9f60f4596c746bd947973581f965e45);
+        
+
+        marker_5cc9d50d80ac46c0878317de530404a5.bindPopup(popup_bfdfc3725410494fad6f7675d0f42a73)
+        ;
+
+        
+    
+    
+            var marker_2e5e98245c8c4154827fc7306658db2a = L.marker(
+                [-22.905640104480064, -43.54954122926807],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_2496544eaadb447ebabd37fc6593b27d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2e5e98245c8c4154827fc7306658db2a.setIcon(icon_2496544eaadb447ebabd37fc6593b27d);
+        
+    
+        var popup_18dd143e9c02451e8fa9d39c2b7968d7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cdfdb4aa613344cbb3d5a19e0bfce369 = $(`<div id="html_cdfdb4aa613344cbb3d5a19e0bfce369" style="width: 100.0%; height: 100.0%;">EDI Henrique Dias</div>`)[0];
+            popup_18dd143e9c02451e8fa9d39c2b7968d7.setContent(html_cdfdb4aa613344cbb3d5a19e0bfce369);
+        
+
+        marker_2e5e98245c8c4154827fc7306658db2a.bindPopup(popup_18dd143e9c02451e8fa9d39c2b7968d7)
+        ;
+
+        
+    
+    
+            var marker_a2a36ea5773d459b9e12bdc6699b2588 = L.marker(
+                [-22.88719290182109, -43.59737702926716],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_396171fd18a1469288b5ff2e59187704 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a2a36ea5773d459b9e12bdc6699b2588.setIcon(icon_396171fd18a1469288b5ff2e59187704);
+        
+    
+        var popup_1d9240e4e3354bc7bc6edb22867a768f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e52d980149cc4941997d8d08b0aac733 = $(`<div id="html_e52d980149cc4941997d8d08b0aac733" style="width: 100.0%; height: 100.0%;">EDI Engenheira Elaine Monsores Pires</div>`)[0];
+            popup_1d9240e4e3354bc7bc6edb22867a768f.setContent(html_e52d980149cc4941997d8d08b0aac733);
+        
+
+        marker_a2a36ea5773d459b9e12bdc6699b2588.bindPopup(popup_1d9240e4e3354bc7bc6edb22867a768f)
+        ;
+
+        
+    
+    
+            var marker_06b6af78ad1d455e86f69295f2507b12 = L.marker(
+                [-22.896369103143833, -43.547427429260885],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_7a8f7780ae5a41619f23217533027a0e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_06b6af78ad1d455e86f69295f2507b12.setIcon(icon_7a8f7780ae5a41619f23217533027a0e);
+        
+    
+        var popup_87aab61e043c419eb20d876ae3e779c7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9b6f384ee060447589f6cca35176fe39 = $(`<div id="html_9b6f384ee060447589f6cca35176fe39" style="width: 100.0%; height: 100.0%;">EDI Eustorgio Wanderley</div>`)[0];
+            popup_87aab61e043c419eb20d876ae3e779c7.setContent(html_9b6f384ee060447589f6cca35176fe39);
+        
+
+        marker_06b6af78ad1d455e86f69295f2507b12.bindPopup(popup_87aab61e043c419eb20d876ae3e779c7)
+        ;
+
+        
+    
+    
+            var marker_f819000ec6af4c14bbf7daa2e5f77d38 = L.marker(
+                [-22.891526002435793, -43.5714236292586],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_1eb17f34e2f142069555207c93b31c12 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f819000ec6af4c14bbf7daa2e5f77d38.setIcon(icon_1eb17f34e2f142069555207c93b31c12);
+        
+    
+        var popup_3304a2b7fa124efeb70bc387bdef2da8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_df7adb50650d4cada2c7af024f259e46 = $(`<div id="html_df7adb50650d4cada2c7af024f259e46" style="width: 100.0%; height: 100.0%;">EDI Dalila Tavares</div>`)[0];
+            popup_3304a2b7fa124efeb70bc387bdef2da8.setContent(html_df7adb50650d4cada2c7af024f259e46);
+        
+
+        marker_f819000ec6af4c14bbf7daa2e5f77d38.bindPopup(popup_3304a2b7fa124efeb70bc387bdef2da8)
+        ;
+
+        
+    
+    
+            var marker_1bc696884c3d4e14b5a87f1cc3107df5 = L.marker(
+                [-22.91945460649018, -43.54728772927679],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_ddcf3702301e475585432bda333675b9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1bc696884c3d4e14b5a87f1cc3107df5.setIcon(icon_ddcf3702301e475585432bda333675b9);
+        
+    
+        var popup_fecf57ea4b1f46e19c0754634e4275b0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_738e54f7b28a437bab1d492a96594757 = $(`<div id="html_738e54f7b28a437bab1d492a96594757" style="width: 100.0%; height: 100.0%;">EM Jesus Soares Pereira</div>`)[0];
+            popup_fecf57ea4b1f46e19c0754634e4275b0.setContent(html_738e54f7b28a437bab1d492a96594757);
+        
+
+        marker_1bc696884c3d4e14b5a87f1cc3107df5.bindPopup(popup_fecf57ea4b1f46e19c0754634e4275b0)
+        ;
+
+        
+    
+    
+            var marker_0893a4da7b4f4c208076f4467b0e3dc5 = L.marker(
+                [-22.931764890730523, -43.553580856368654],
+                {}
+            ).addTo(map_697175f5da2249069c561c20508fc37a);
+        
+    
+            var icon_992b9ba3dd184f82a1b2bd3eac0a10f1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_0893a4da7b4f4c208076f4467b0e3dc5.setIcon(icon_992b9ba3dd184f82a1b2bd3eac0a10f1);
+        
+    
+        var popup_1b692b88e8be46c392722abb8bbec64a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_90349dcf7b3243e2a3a9d6e887be83b7 = $(`<div id="html_90349dcf7b3243e2a3a9d6e887be83b7" style="width: 100.0%; height: 100.0%;">Casa</div>`)[0];
+            popup_1b692b88e8be46c392722abb8bbec64a.setContent(html_90349dcf7b3243e2a3a9d6e887be83b7);
+        
+
+        marker_0893a4da7b4f4c208076f4467b0e3dc5.bindPopup(popup_1b692b88e8be46c392722abb8bbec64a)
+        ;
+
+        
+    
+</script>
